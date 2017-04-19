@@ -1,5 +1,7 @@
 # dystonse
-_DYnamic STochastic ONline SEarch in public transport networks_
+<p align="center">
+  <img src="https://github.com/lenaschimmel/dystonse/blob/master/header_white.png?raw=true" alt="Header image with dystonse logo"/>
+</p>
 
 I'm preparing my master thesis on _dystonse_, a routing algorithm for public transit with the following key characterstics (as they are commonly defined in the respective research field):
 
