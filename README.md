@@ -19,8 +19,8 @@ This repository serves only as a landing page for other repositorys, where the a
  * **[dystonse-search-node](https://github.com/lenaschimmel/dystonse-search-node)** The first implementation of the Dystonse search algorithm. It actually works and serves as backend for the _website_. Development will be discontinued in favor of a clean implementation in (most likely) Rust. _(working)_
  * **[dystonse-search-rust](https://github.com/lenaschimmel/dystonse-search-rust)** This will be the home of the reimplementation  of the Dystonse search algorithm. _(no content yet)_
  * **[dystonse-tools](https://github.com/lenaschimmel/dystonse-tools)** Some Java-based tools from 2017. Development paused / discontinued.
-   * ** Import tool** This tool makes a request to the VBB real time HAFAS API (See explanations here) to get the current position and delay of vehicles and writes them into a MySQL table. _(working)_
-   * ** Geocode tool** This tool is in very early developtment and does not do what it's supposed to do. It can currently be used to view small subset of the collected data on a map. _(partly working)_
+   * **Import tool** This tool makes a request to the VBB real time HAFAS API (See explanations here) to get the current position and delay of vehicles and writes them into a MySQL table. _(working)_
+   * **Geocode tool** This tool is in very early developtment and does not do what it's supposed to do. It can currently be used to view small subset of the collected data on a map. _(partly working)_
    * **Prediction tool** This tool will use statistic algorithms to form a model that can predict the future delay of vehicles based on the current delay and other relevant predictive variables. _(no code, just development notes)_
 
 ## News and Contact
