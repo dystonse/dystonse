@@ -10,7 +10,7 @@ We are preparing a routing algorithm for public transit with the following key c
  * __Online__: The algorithm does not return a final output upfront, instead it iterates _en route_, while the user is actually traveling, incorporating updated real time information to yield the best routing that is currently archievable
 
 ## Website
-The Dystonse website will launch at [dystonse.lenaschimmel.de](http://dystonse.lenaschimmel.de) soon. You can test the algorithm and read about the background of this project.
+**The prototype of the Dystonse website is available at [dystonse.lenaschimmel.de](http://dystonse.lenaschimmel.de) - there you can test the algorithm and read about the background of this project.**
 
 ## Development is happening somewhere else
 This repository serves only as a landing page for other repositorys, where the actual development will take place.
