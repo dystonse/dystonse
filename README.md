@@ -25,4 +25,4 @@ This repository serves only as a landing page for other repositorys, where the a
 
 ## News and Contact
 
-You can follow [@Dysonse](https://twitter.com/dystonse) on Twitter to stay up to date or get in touch.
+You can follow [@dystonse](https://twitter.com/dystonse) on Twitter to stay up to date or get in touch.
