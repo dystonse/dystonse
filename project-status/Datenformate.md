@@ -23,11 +23,11 @@ Außerdem können `VehiclePositions` vorhanden sein, die einem Fahrzeug zu einer
 [Quelle](https://developers.google.com/transit/gtfs-realtime/reference/#message-tripupdate)
 
 ### Transmodel
-Das ist wirklich komplex und da blicket keiner durch.
+Das ist wirklich komplex und da blickt keiner durch.
 
 ## Gemäß realer Quellen
 ### VBB Echtzeitkarte
-Eine Menge von Fahrzeugupdates mit diesen Feldern ([April 2017](https://github.com/dystonse/dystonse-tools/blob/master/src/main/java/net/dystonse/tools/Import.java#L135) reverse engeneered):
+Eine Menge von Fahrzeugupdates mit diesen Feldern ([April 2017](https://github.com/dystonse/dystonse-tools/blob/master/src/main/java/net/dystonse/tools/Import.java#L135) reverse engineered):
 
  * `i` = `compound_id`
  * `c` = `productclass`
@@ -43,7 +43,7 @@ Es müsste noch analysiert werden, inwiefern die `location` aus GPS-Daten stammt
 ???
 
 ### Münster
-Laut Dokumentation bietet die API nur Positionen und keine Verspätungsinformation. Wie wir am 4. März erfahren haben, werden aber auch Verspätungsinformationen in Sekunden (nicht auf Minuten gerundet!). Unsere bisherige Planung geht noch davon aus, dass diese Daten fehlen.
+Laut Dokumentation bietet die API nur Positionen und keine Verspätungsinformation. Wie wir am 4. März erfahren haben, werden aber auch Verspätungsinformationen in Sekunden (nicht auf Minuten gerundet!) mit übertragen. Unsere bisherige Planung geht noch davon aus, dass diese Daten fehlen.
 
 ### Zwischenfazit
 Im Wesentlichen gehören alle Echtzeitdaten in einer dieser drei Kategorien / Formate:
