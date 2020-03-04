@@ -1,7 +1,7 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt._
 
-## Woche 1 (Update vom 9. März)
+## Woche 1 (Update zum 9. März)
 
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1)
@@ -16,13 +16,13 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Milestones überarbeitet und [in GitHub eingepflegt](https://github.com/dystonse/dystonse/milestones?direction=asc&sort=title&state=open)
 
 ### Das machen wir diese Woche
- * Datensammlung in Berlin vorbereiten
+ * Datensammlung in Berlin und/oder Münster vorbereiten
  * Fahrplandaten von [gtfs.de](https://gtfs.de/) evaluieren und in Datenbank importieren
 
 ### Das bremst uns gerade
  * Die Unsicherheit, da unser Förderbescheid noch nicht da ist
  * Andere Jobs und private Aufgaben
- * Dass Deutschland [noch in den 1990er Jahren steckt](https://signalarchiv.de/Meldungen/10000634), was (offene) Echtzeit-Verkehrsdaten angeht. Bisher scheint es **nirgends** wirklich offene, brauchbare Echtzeitdaten zu geben. Andere europäische Länder und die USA sind da schon viel weiter.
+ * Dass Deutschland [noch in den 1990er Jahren steckt](https://signalarchiv.de/Meldungen/10000634), was (offene) Echtzeit-Verkehrsdaten angeht. Bisher scheint es nirgends **wirklich offene**, brauchbare Echtzeitdaten zu geben. Andere europäische Länder und die USA sind da schon viel weiter.
 
 ### Das motiviert uns gerade
  * Dass es endlich los geht
