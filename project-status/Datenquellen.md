@@ -9,7 +9,7 @@
 * Die Bahn hat wohl zwei Datenportale:
   * [Open-Data-Portal](https://data.deutschebahn.com/)
   * [OPEN API Portal]( https://developer.deutschebahn.com/store/)
-* [Meta-Übersicht der DB über Datenquellen](https://web.archive.org/web/20200302221530/https://gobeta.de/projekte/dataportale/)
+* [Meta-Übersicht der DB über Datenquellen](https://gobeta.de/projekte/dataportale/)
 
 ## (Ist-)Echtzeitdaten
 
@@ -52,7 +52,7 @@
 ### Zur Deutschen Bahn
 * Die "Echtzeitpositionen" der DB wurden Ende 2018 abgestellt, da sie eh nie realistisch waren, wie die Bahn [selbst sagt](https://web.archive.org/web/20190417012918/https://www.bahn.de/p/view/service/mobile/zugradar.shtml).
 * [Abfrage von Position und Geschwindigkeit, während man im WLAN des Zugs eingeloggt ist](https://hannover.ccc.de/~nexus/dbwifi/)
-* [Podcast von "EinfachBahn", was wohl einer Stelle innerhalb der DB ist, u.a. zu open data](https://open.spotify.com/show/3fIeX7IkQmfViIu1cj34SU)
+* [Podcast von "EinfachBahn", was wohl eine Stelle innerhalb der DB ist, u.a. zu open data](https://open.spotify.com/show/3fIeX7IkQmfViIu1cj34SU)
 
 ### Zu anderen Anbietern
 * [Übersicht über Open Data, Openwashing und NoData von statischem GTFS in Deutschland](https://rettedeinennahverkehr.de/)
@@ -63,7 +63,7 @@
  * [Koordinaten der Zugangsmöglichkeiten zu Stationen](https://www.mcloud.de/web/guest/suche/-/results/detail/_mcloudde_koordinatenderzugangsmglichkeitenzustationen?_mcloudsearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_currentAggs%3Dextras.subgroups%253A%2522railway%2522%26_mcloudsearchportlet_page%3D3%26_mcloudsearchportlet_sort%3Dlatest)
 
 # OpenStreetMap (OSM)
-Bei der [geofrabrik](https://download.geofabrik.de/europe/germany.html) können wir Dumps und Diffs herunter laden. Berlin könnten wir jedes Mal neu runter laden, sind nur 55 MB. Deutschland sind 4GB mit 4MB an täglichen Diffs, die wir mit [Osmosis](https://wiki.openstreetmap.org/wiki/Osmosis) oder [Osmium](https://osmcode.org/osmium-tool/) verarbeiten könnten.
+Bei der [geofabrik](https://download.geofabrik.de/europe/germany.html) können wir Dumps und Diffs herunter laden. Berlin könnten wir jedes Mal neu runter laden, sind nur 55 MB. Deutschland sind 4GB mit 4MB an täglichen Diffs, die wir mit [Osmosis](https://wiki.openstreetmap.org/wiki/Osmosis) oder [Osmium](https://osmcode.org/osmium-tool/) verarbeiten könnten.
 
 [Pfaedle](https://github.com/ad-freiburg/pfaedle) spricht derzeit nur XML, das könnten wir uns aber aus unserer DB heraus exportieren.
 
