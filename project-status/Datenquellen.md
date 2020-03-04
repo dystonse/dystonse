@@ -18,6 +18,9 @@
   * [VBB-Echtzeitkarte existiert noch](http://fahrinfo.vbb.de/bin/help.exe/dn?L=vs_mobilitymap&tpl=fullmap&tabApp=show)
 * Münster:
   * Echtzeitpositionen der Busse mit [Karte](http://api.busradar.conterra.de/demo/) und [API](http://api.busradar.conterra.de/) (war seit Januar kaputt, geht seit 4. März wieder)
+  * Im Oktober 2017 haben die Stadtwerke Münster [in einem Kommentar auf ihrer Website angekündigt](https://www.stadtwerke-muenster.de/blog/verkehr/eine-anekdote-wie-wir-zu-fis2go-kamen/), eine API für einen Hackathon zur Verfügung zu stellen.
+  * Im Februar 2018 hat Felix Wöstmann über [Frag den Staat](https://fragdenstaat.de/anfrage/api-der-bus-echtzeitauskunft/) die Stadtwerke nach der API-Dokumentation gefragt. Die Antwortete, dass die Dokumentation nicht öffentlich werde, aber die Schnittstelle genutzt werden darf
+  * Wir haben mal [auf Twitter](https://twitter.com/dystonse/status/1235241688278458369) nachgefragt, wie da die Bedinungen sind
 * Deutsche Bahn:
   * [Zugverfolgung.com hat Echtzeitdaten für u.a. DB-Züge](https://www.zugverfolgung.com/db-deutsche-bahn)
   * [Die Deutsche Bahn hat ihr Zugradar noch online, aber ihre Google Maps Rechnung nicht bezahlt](http://www.apps-bahn.de/bin/livemap/query-livemap.exe/dn?L=vs_livefahrplan&livemap=yes)
@@ -46,6 +49,16 @@
 * Conterra / Stadtwerke Münster
 * Regionalverband Großraum Braunschweig
 * ggf. die 19 Städte mit dem "init"-System
+
+### Vergleich
+| Ort                         | Verkehrsmittel                                  | Format                           | Verspätung                                          | Prognose                | Position | Vorteile                                                                                        | Nachteile                                                            |
+|-----------------------------|-------------------------------------------------|----------------------------------|-----------------------------------------------------|-------------------------|----------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Berlin                      | Diverser Nahverkehr (Tram, S-Bahn, U-Bahn, Bus) | HTTP-API / Json                  | Ja                                                  | Über andere API         | Ja       | Verfügbar, viel statisches Open Data                                                            | Kein Open Data für Echtzeit, durch hohe Taktdichte nicht so relevant |
+| Braunschweig                | Tram und Bus                                    | ?                                | ?                                                   | Müsste (bald) vorliegen | ?        | Gut für lokales Testen                                                                          | Evtl. Gar nicht verfügbar                                            |
+| Münster                     | Bus                                             | HTTP-API und Websocket / Json    | Ja                                                  | Nein                    | Ja       | Evtl. open data (ist angefragt), relativ gut für lokale Tests                                   | nur Busse                                                            |
+| Deutschland                 | Fernzüge, Regionalzüge                          | HAFAS-API und JS-Wrapper in FPTF | Nicht über HAFAS-Radar, aber über record-hafas-data | Ja                      | Ja       | Lange Taktzeiten für viel Relevant, große Zielgruppe, Community hat viel Erfahrung mit den APIs | Kein Open Data für Echtzeit                                          |
+| Schweiz                     | Verschiedene Züge (?)                           | GTFS-Realtime                    | ?                                                   | ?                       | ?        | Realtime verfügbar und open data                                                                | Kein lokaler Test, kaum echte Relevanz                               |
+| Irgendeine Stadt in den USA | Nahverkehr                                      | GTFS-Realtime                    | ?                                                   | ?                       | ?        | Realtime verfügbar und open data, Praxiserprobt                                                 | Kein lokaler Test, keine echte Relevanz                              |
 
 ## Hintergrund-Informationen
 
