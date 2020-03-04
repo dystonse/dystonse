@@ -17,4 +17,6 @@
 Datenbanken können dabei als eigenständiger Host vorliegen und/oder gespiegelt auf dem Host, der letztlich mit der DB arbeitet, wenn die Latenzen oder der Durchsatz zwischen den Hosts sonst zu groß wäre
 
 ## Grafik
-![Kiku](./Dystonse&#32;Komponenten.png)
+Die folgende Grafik ist aktueller als die textuellen Notizen:
+
+![Diagramm der Komponenten und Datenflüsse](./Dystonse&#32;Komponenten.png)

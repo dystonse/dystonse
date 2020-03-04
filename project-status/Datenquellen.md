@@ -19,7 +19,7 @@
 * Münster:
   * Echtzeitpositionen der Busse mit [Karte](http://api.busradar.conterra.de/demo/) und [API](http://api.busradar.conterra.de/) (war seit Januar kaputt, geht seit 4. März wieder)
 * Deutsche Bahn:
-  * [Zugverfolgung.com hat Echtzeitdaten für u.a. DB-Züge)[https://www.zugverfolgung.com/db-deutsche-bahn]
+  * [Zugverfolgung.com hat Echtzeitdaten für u.a. DB-Züge](https://www.zugverfolgung.com/db-deutsche-bahn)
   * [Die Deutsche Bahn hat ihr Zugradar noch online, aber ihre Google Maps Rechnung nicht bezahlt](http://www.apps-bahn.de/bin/livemap/query-livemap.exe/dn?L=vs_livefahrplan&livemap=yes)
   * [Jannis' Hafas-Client kann das DB-Radar abfragen](https://github.com/public-transport/hafas-client/blob/5/docs/radar.md)
 * Schweiz:
@@ -52,7 +52,7 @@
 ### Zur Deutschen Bahn
 * Die "Echtzeitpositionen" der DB wurden Ende 2018 abgestellt, da sie eh nie realistisch waren, wie die Bahn [selbst sagt](https://web.archive.org/web/20190417012918/https://www.bahn.de/p/view/service/mobile/zugradar.shtml).
 * [Abfrage von Position und Geschwindigkeit, während man im WLAN des Zugs eingeloggt ist](https://hannover.ccc.de/~nexus/dbwifi/)
-* [Podcast von "EinfachBahn", was wohl einer Steller innerhalb der DB ist, u.a. zu open data](https://open.spotify.com/show/3fIeX7IkQmfViIu1cj34SU)
+* [Podcast von "EinfachBahn", was wohl einer Stelle innerhalb der DB ist, u.a. zu open data](https://open.spotify.com/show/3fIeX7IkQmfViIu1cj34SU)
 
 ### Zu anderen Anbietern
 * [Übersicht über Open Data, Openwashing und NoData von statischem GTFS in Deutschland](https://rettedeinennahverkehr.de/)
