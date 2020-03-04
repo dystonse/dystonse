@@ -45,6 +45,31 @@ Es müsste noch analysiert werden, inwiefern die `location` aus GPS-Daten stammt
 ### Münster
 Laut Dokumentation bietet die API nur Positionen und keine Verspätungsinformation. Wie wir am 4. März erfahren haben, werden aber auch Verspätungsinformationen in Sekunden (nicht auf Minuten gerundet!) mit übertragen. Unsere bisherige Planung geht noch davon aus, dass diese Daten fehlen.
 
+Beispieldaten aus dem Webinterface:
+
+```
+{
+    "visfahrplanlagezst": "4.3.2020, 18:20:18",
+    "linienid": "33",
+    "nachhst": "4587101",
+    "fahrtstatus": "Ist",
+    "ankunftziel": "2020-03-04T18:32:00+01:00",
+    "richtungstext": "Ringlinie",
+    "sequenz": 19,
+    "delay": 176,
+    "linientext": "33",
+    "zielhst": "4100001",
+    "fahrtbezeichner": "94100041018001",
+    "richtungsid": "1",
+    "fahrzeugid": "5122",
+    "starthst": "4100001",
+    "betriebstag": "2020-03-04",
+    "abfahrtstart": "2020-03-04T17:50:00+01:00",
+    "akthst": "4549101",
+    "operation": "MODIFY"
+}
+```
+
 ### Zwischenfazit
 Im Wesentlichen gehören alle Echtzeitdaten in einer dieser drei Kategorien / Formate:
  * Verspätung eines Fahrzeuges zu einer bestimmten Zeit

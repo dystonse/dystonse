@@ -8,8 +8,9 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 ### Das haben wir letzte Woche gemacht
  * Mit Abstand der größte Brocken Arbeit in dieser Woche: Potentielle [Datenquellen](./Datenquellen.md) und [-Formate](./Datenformate.md) für Echtzeitdaten recherchiert.
+ * Die Lizenz bzw. Nutzungsbedingungen für Echtzeitdaten in Münster [erfragt](https://twitter.com/dystonse/status/1235241688278458369)
  * Mit [Jannis](https://github.com/derhuerst) getroffen, der Open Data und Open Source rund um den Berliner Nahverkehr macht
- * Ein kleines Fotoshooting in der Berliner U-Bahn :)
+ * Ein kleines [Fotoshooting in der Berliner U-Bahn](https://twitter.com/dystonse/status/1235250055084494849) :)
  * Etwas Finanz- und Papierkram
  * Strukturierte [Notizen](./Notizen.md) gemacht
  * Softwarekomponenten und Datenflüsse [überlegt](./Komponenten.md) und in ein [Diagramm](https://github.com/dystonse/dystonse/blob/master/project-status/Dystonse%20Komponenten.png) gegossen
