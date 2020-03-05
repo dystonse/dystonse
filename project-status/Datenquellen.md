@@ -22,6 +22,9 @@
   * Im Februar 2018 hat Felix Wöstmann über [Frag den Staat](https://fragdenstaat.de/anfrage/api-der-bus-echtzeitauskunft/) die Stadtwerke nach der API-Dokumentation gefragt. Die Antwortete, dass die Dokumentation nicht öffentlich werde, aber die Schnittstelle genutzt werden darf
   * Wir haben mal [auf Twitter](https://twitter.com/dystonse/status/1235241688278458369) nachgefragt, wie da die Bedinungen sind
   * [Artikel über die Datenqualität](http://www.stadtwerke-muenster.de/blog/verkehr/wie-aus-einer-minute-drei-werden-koennen-echtzeitauskunft-und-ihre-grenzen/) und ein [Update von 2015](https://www.stadtwerke-muenster.de/blog/verkehr/von-analog-zu-digital-fis-verbessert/) dazu
+* Ulm
+  * Echtzeit-Abfahrtsdaten für Ulm gibt es von DING, [dokumentiert von der Fachschaft Elektrotechnik](http://bus.fs-et.de/bus/info.html). In den [XML-Daten](http://www.ding.eu/ding2/XML_DM_REQUEST?laguage=de&typeInfo_dm=stopID&nameInfo_dm=9001240&deleteAssignedStops_dm=1&useRealtime=1&mode=direct) findet sich kein Hinweis auf Verspätungsangaben.
+  * Diverse Projekte dazu [bei UlmAPI](https://github.com/UlmAPI)
 * Deutsche Bahn:
   * [Zugverfolgung.com hat Echtzeitdaten für u.a. DB-Züge](https://www.zugverfolgung.com/db-deutsche-bahn)
   * [Die Deutsche Bahn hat ihr Zugradar noch online, aber ihre Google Maps Rechnung nicht bezahlt](http://www.apps-bahn.de/bin/livemap/query-livemap.exe/dn?L=vs_livefahrplan&livemap=yes)
@@ -54,6 +57,7 @@
 ### Vergleich von Echtzeit-Datenquellen
 | Ort                         | Verkehrsmittel                                      | Open Data      | Format                           | Verspätung                                          | Prognose                    | Position | Vorteile                                                                                        | Nachteile                                                            |
 |-----------------------------|-----------------------------------------------------|----------------|----------------------------------|-----------------------------------------------------|-----------------------------|----------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Verbund Rhein-Neckar        | Bus, Tram, evtl. weitere                            | [Ja][5]        | GTFS-Realtime                    | Ja                                                  | Ja                          | Nein     | Bisher erste bekannte offene Echtzeitdaten                                                      | Stream enthält evtl. nur Infos zu 100 von 1380 Fahrzeugen            |
 | Berlin                      | Diverser Nahverkehr (Tram, S-Bahn, U-Bahn, Bus)     | Nein           | HTTP-API / Json                  | Ja                                                  | Über andere API             | Ja       | Verfügbar, viel statisches Open Data                                                            | durch hohe Taktdichte nicht so relevant                              |
 | Braunschweig                | Tram und Bus                                        | ?              | ?                                | ?                                                   | Müsste (bald) vorliegen [4] | ?        | Gut für lokales Testen                                                                          | Evtl. Gar nicht verfügbar                                            |
 | Münster                     | Bus                                                 | [Nein][1]      | HTTP-API und Websocket / Json    | Ja                                                  | Nein                        | Ja       | Evtl. open data (ist angefragt), relativ gut für lokale Tests                                   | nur Busse                                                            |
@@ -68,8 +72,11 @@
 [2]: https://twitter.com/verschwoerhaus/status/1235529198078513154
 [3]: https://twitter.com/mfdz_de/status/1235548411908288515
 [4]: https://www.regionalverband-braunschweig.de/echtzeit/
+[5]: https://www.vrn.de/service/entwickler/gtfs/index.html
 
 ## Hintergrund-Informationen
+* [Umfangreiche FAQ zu Open Data im Nahverkehr von 2015](https://github.com/UlmApi/beyondtransit/blob/gh-pages/evu-daten-faq.md)
+* [Definition offener Daten](http://opendefinition.org/od/2.1/de/)
 
 ### Zur Deutschen Bahn
 * Die "Echtzeitpositionen" der DB wurden Ende 2018 abgestellt, da sie eh nie realistisch waren, wie die Bahn [selbst sagt](https://web.archive.org/web/20190417012918/https://www.bahn.de/p/view/service/mobile/zugradar.shtml).
