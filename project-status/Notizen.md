@@ -34,3 +34,8 @@ Wenn zwei Instanzen sich darüber einig sind, welche Fahrten betrachtet werden, 
 Die Einheit, die aus der letzten Position / Verspätung, deren Zeit und anderen Metadaten Prognosen erstellt, kann auch beliebig komplex sein, sowohl in ihrer Berechnungsweise als auch in der Menge der Daten, die sie zu Grunde legt. 
 
 (An der Stelle sei gesagt, dass wir für  manche Fahrzeuge nur Verpätungen / nur Prognosen / nur Positionen aus der API bekommen, und dass wir die ggf. ineinander umrechnen müssen)
+
+## Sonstiges
+Idee: Zweistufige Heuristik. Der Wahrscheinlichkeitsbasierte Algorithmus nutze als Heuristik einen Best-Case-A*, und der nutzt wiederum als Heuristik eine Luftlinienberechnung. Der sog. Best-Case-A* nutzt für jeden Streckenabschnitt die kürzeste Reisezeit, die dort jemals gemessen wurde. Diese mittlere Heuristik wäre teuerer, aber würde vermutlich sehr viel Rechenzeit bei der eigentlichen Suche sparen.
+
+Idee: Unzuverlässigkeit der User mit einberechnen. Fehler wie zu frühes / zu spätes Aussteigen oder das Einsteigen in das falsche Verkehrsmittel passieren. Ein Algorithmus, der eh schon wahrscheinlichkeitsbasiert ist, kann das mit einberechnen. Dadurch würden Routen priorisiert werden, bei denen Fehler per se unwahrscheinlicher sind, oder bei denen Fehler weniger schlechte Konsequenzen haben. Inspiriert von [diesem Tweet](https://twitter.com/maussagenlogik/status/1235659894361124864).
