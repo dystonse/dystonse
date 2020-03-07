@@ -1,5 +1,7 @@
 # Datenquellen
 
+_Im Moment erreichen uns täglich neue Hinweise auf verfügbare und (halb-)offene Datenquellen für Echtzeitinfos. Wir kommen im Moment nicht damit hinterher, das gesamte Dokument aktuell und aufgeräumt zu halten. Am ehesten aktuell ist die [Tabelle](#vergleich-von-echtzeit-datenquellen) weiter unten._
+
 ## (Soll-)Fahrpläne
 
 ### Konkrete Quellen
