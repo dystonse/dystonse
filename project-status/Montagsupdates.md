@@ -16,7 +16,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Milestones überarbeitet und [in GitHub eingepflegt](https://github.com/dystonse/dystonse/milestones?direction=asc&sort=title&state=open)
  * Die Lizenz bzw. Nutzungsbedingungen für Echtzeitdaten in Münster [erfragt](https://twitter.com/dystonse/status/1235241688278458369) und erfahren, dass die alles andere als offen sind
  * Auf Twitter nach offenen Daten gefragt und tatsächlich mehrere gute Hinweise bekommen
- * Testweise ein kleines Docker-Setup aufgesetzt und eine Zeit lang Fahrplan- und Echtzeit-Daten aus dem VRN erfolgreich aufgezeichnet
+ * Testweise ein kleines [Docker-Setup](https://github.com/dystonse/gtfs-collector/blob/master/VRN.env) aufgesetzt und eine Zeit lang Fahrplan- und Echtzeit-Daten aus dem VRN erfolgreich aufgezeichnet
 
 ### Das machen wir diese Woche
  * Entscheiden, welche Region als erste Testregion in Frage kommt
