@@ -24,6 +24,11 @@
             "id": "muenster",
             "name": "Allgemeine Nutzungsbedingungen für Fahrplandaten der Stadtwerke Münster",
             "url": "https://www.stadtwerke-muenster.de/fileadmin/stwms/busverkehr/kundencenter/dokumente/GTFS/Allgemeine_Nutzungsbedingungen_SWMS_GTFS_Feeds.pdf"
+        },
+        {
+            "id": "connect",
+            "name": "Diverse Lizenzvereinbarungen der Connect Fahrplanauskunft GmbH",
+            "url": "http://www.connect-fahrplanauskunft.de/unsere-services/opendata.html"
         }
     ],
     "formats": [
@@ -247,6 +252,27 @@
                     "license": "cc-by-4.0",
                     "url": "http://www.wienerlinien.at/ogd_realtime/",
                     "meta-url": "https://www.data.gv.at/katalog/dataset/wiener-linien-echtzeitdaten-via-datendrehscheibe-wien"
+                }
+            ]
+        },
+        {
+            "id": "vbn",
+            "name": "Verkehrsverbund Bremen Niedersachsen",
+            "static-data": [
+                {
+                    "format": "gtfs",
+                    "license": "connect",
+                    "url": "",
+                    "meta-url": "http://www.connect-fahrplanauskunft.de/unsere-services/opendata.html",
+                    "comment": "After creating an account, you can see the different data sources, which may have different license agreements."
+                }
+            ],
+            "dynamic-data": [
+                {
+                    "format": "gtfs-rt",
+                    "license": "cc-by-4.0",
+                    "url": "http://gtfsr.vbn.de/gtfsr_connect.json",
+                    "meta-url": "https://www.vbn.de/service/entwicklerinfos/"
                 }
             ]
         }
