@@ -1,0 +1,254 @@
+{
+    "licenses": [
+        {
+            "id": "cc-by-3.0",
+            "name": "Namensnennung 3.0 Unported (CC BY 3.0)",
+            "url": "https://creativecommons.org/licenses/by/3.0/deed.de"
+        },
+        {
+            "id": "cc-by-4.0",
+            "name": "Namensnennung 4.0 International (CC BY 4.0)",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.de"
+        },
+        {
+            "id": "none",
+            "name": "No license",
+            "url": ""
+        },
+        {
+            "id": "bonn",
+            "name": "Nutzungsvereinbarung Verkehrsverbund Rhein-Sieg",
+            "url": "https://www.vrs.de/fileadmin/Dateien/api/NutzervereinbarungODOS.pdf"
+        },
+        {
+            "id": "muenster",
+            "name": "Allgemeine Nutzungsbedingungen für Fahrplandaten der Stadtwerke Münster",
+            "url": "https://www.stadtwerke-muenster.de/fileadmin/stwms/busverkehr/kundencenter/dokumente/GTFS/Allgemeine_Nutzungsbedingungen_SWMS_GTFS_Feeds.pdf"
+        }
+    ],
+    "formats": [
+        {
+            "id": "gtfs",
+            "name": "General Transit Feed Specification",
+            "url": "https://developers.google.com/transit/gtfs/reference/"
+        },
+        {
+            "id": "gtfs-rt",
+            "name": "General Transit Feed Specification Realtime",
+            "url": "https://developers.google.com/transit/gtfs-realtime"
+        },
+        {
+            "id": "puls",
+            "name": "Web-API <<PULS>>",
+            "url": "https://opendata.vag.de/dataset/1db11564-3aa7-458f-9add-7907b434d052/resource/bbf11225-87cc-4abb-bf4b-1a7e2012aaf5/download/schnittstellenbeschreibung-puls-web-api-v1.0.4.pdf"
+        },
+        {
+            "id": "hafas",
+            "name": "HAFAS closed source API",
+            "url": "https://www.google.com/search?q=performLocating"
+        },
+        {
+            "id": "conterra-rest",
+            "name": "Conterra Bus Radar Rest",
+            "url": "http://api.busradar.conterra.de/"
+        },
+        {
+            "id": "conterra-websocket",
+            "name": "Conterra Bus Radar Websocket",
+            "url": "http://api.busradar.conterra.de/"
+        },
+        {
+            "id": "wien-static",
+            "name": "Wiener Linien Statisch",
+            "url": "https://www.data.gv.at/katalog/dataset/wiener-linien-echtzeitdaten-via-datendrehscheibe-wien"
+        },
+        {
+            "id": "wien-realtime",
+            "name": "Wiener Linien Realtime",
+            "url": "http://www.wienerlinien.at/ogd_realtime/doku/ogd/wienerlinien-echtzeitdaten-dokumentation.pdf"
+        }
+    ],
+    "feeds": [
+        {
+            "id": "gtfsde",
+            "name": "GTFS für Deutschland",
+            "static-data": [
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-4.0",
+                    "url": "https://download.gtfs.de/germany/fv_free/latest.zip",
+                    "comment": "Schienenfernverkehr Deutschland"
+                },
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-4.0",
+                    "url": "https://download.gtfs.de/germany/nv_free/latest.zip",
+                    "comment": "ÖPNV Deutschland"
+                },
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-4.0",
+                    "url": "https://download.gtfs.de/germany/rv_free/latest.zip",
+                    "comment": "Schienenregionalverkehr Deutschland"
+                }
+            ],
+            "dynamic-data": [
+            ]
+        },
+        {
+            "id": "vrn",
+            "name": "Verkehrsverbund Rhein-Neckar GmbH",
+            "delfi-agency": "Verkehrsverbund Rhein-Neckar",
+            "static-data": [
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-4.0",
+                    "url": "https://www.vrn.de/mam/service/downloads/vrn_gtfs.zip"
+                }
+            ],
+            "dynamic-data": [
+                {
+                    "format": "gtfs-rt",
+                    "license": "cc-by-4.0",
+                    "url": "http://145.253.183.19:7777/",
+                    "comment": "gtfs-rt as json available at http://145.253.183.19:7777/?format=json"
+                }
+            ]
+        },
+        {
+            "id": "vag",
+            "name": "VAG Verkehrs-Aktiengesellschaft Nürnberg",
+            "delfi-agency": "VerkehrsAG Nürnberg",
+            "static-data": [
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-3.0",
+                    "url": "http://www.vgn.de/opendata/GTFS.zip",
+                    "meta-url": "https://www.vgn.de/web-entwickler/open-data/"
+                }
+            ],
+            "dynamic-data": [
+                {
+                    "format": "puls",
+                    "license": "cc-by-3.0",
+                    "url": "https://start.vag.de/dm/api/v1/",
+                    "meta-url": "https://opendata.vag.de/dataset/api-echtzeitauskunft",
+                    "comment": "Sample URL with parameters: https://start.vag.de/dm/api/v1/abfahrten/VGN/510"
+                }
+            ]
+        },
+        {
+            "id": "vbb",
+            "name": "VBB Verkehrsverbund Berlin-Brandenburg GmbH",
+            "delfi-agency": "VBB-Lieferungen Tabellenplaner",
+            "static-data": [
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-4.0",
+                    "url": "https://www.vbb.de/media/download/2029",
+                    "meta-url": "https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs"
+                }
+            ],
+            "dynamic-data": [
+                {
+                    "format": "hafas",
+                    "license": "none",
+                    "url": "http://fahrinfo.vbb.de/bin/query.exe",
+                    "meta-url": "https://github.com/dystonse/dystonse/blob/master/project-status/Datenformate.md#vbb-echtzeitkarte"
+                }
+            ]
+        },
+        {
+            "id": "vrs",
+            "name": "Verkehrsverbund Rhein-Sieg GmbH",
+            "delfi-agency": "Verkehrsverbund Rhein-Sieg",
+            "static-data": [
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-4.0",
+                    "url": "http://download.vrsinfo.de/gtfs/google_transit.zip",
+                    "meta-url": "https://www.vrs.de/fahren/fahrplanauskunft/opendata-/-openservice"
+                },
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-4.0",
+                    "url": "http://download.vrsinfo.de/gtfs/Google_Transit_mit_GlobalIDs.zip",
+                    "meta-url": "https://www.vrs.de/fahren/fahrplanauskunft/opendata-/-openservice"
+                }
+            ],
+            "dynamic-data": [
+                {
+                    "format": "gtfs-rt",
+                    "license": "bonn",
+                    "meta-url": "https://www.vrs.de/fahren/fahrplanauskunft/opendata-/-openservice"
+                }
+            ]
+        },
+        {
+            "id": "swm",
+            "name": "Stadtwerke Münster GmbH",
+            "static-data": [
+                {
+                    "format": "gtfs",
+                    "license": "muenster",
+                    "url": "https://www.stadtwerke-muenster.de/fileadmin/stwms/busverkehr/kundencenter/dokumente/GTFS/stadtwerke_feed_bis_200419.zip",
+                    "meta-url": "https://www.stadtwerke-muenster.de/privatkunden/mobilitaet/fahrplaninfos/fahr-netzplaene-downloads/open-data-gtfs/gtfs-download.html?o=458",
+                    "comment": "The current feed URL might be published on the meta URL. Commercial usage of this may be punished with high fines, make sure to read carefully: https://www.stadtwerke-muenster.de/fileadmin/stwms/busverkehr/kundencenter/dokumente/GTFS/Allgemeine_Nutzungsbedingungen_SWMS_GTFS_Feeds.pdf"
+                }
+            ],
+            "dynamic-data": [
+                {
+                    "format": "gtfs-rt",
+                    "license": "meunster",
+                    "url": "http://api.busradar.conterra.de/data/vehicles.pbf",
+                    "meta-url": "http://api.busradar.conterra.de/"
+                },
+                {
+                    "format": "gtfs-rt",
+                    "license": "meunster",
+                    "url": "http://api.busradar.conterra.de/data/tripupdates.pbf",
+                    "meta-url": "http://api.busradar.conterra.de/"
+                },
+                {
+                    "format": "gtfs-rt",
+                    "license": "meunster",
+                    "url": "http://api.busradar.conterra.de/data/alertupdates.pbf",
+                    "meta-url": "http://api.busradar.conterra.de/"
+                },
+                {
+                    "format": "conterra-rest",
+                    "license": "meunster",
+                    "url": "https://rest.busradar.conterra.de/prod/",
+                    "meta-url": "http://api.busradar.conterra.de/"
+                },
+                {
+                    "format": "conterra-websocket",
+                    "license": "meunster",
+                    "url": "wss://websocket.busradar.conterra.de",
+                    "meta-url": "http://api.busradar.conterra.de/"
+                }
+            ]
+        },
+        {
+            "id": "wl",
+            "name": "Wiener Linien",
+            "static-data": [
+                {
+                    "format": "wien-static",
+                    "license": "cc-by-4.0",
+                    "url": "https://www.data.gv.at/katalog/dataset/wiener-linien-echtzeitdaten-via-datendrehscheibe-wien",
+                    "meta-url": "https://www.data.gv.at/katalog/dataset/wiener-linien-echtzeitdaten-via-datendrehscheibe-wien",
+                    "comment": "Several static csv files are linked from the given url."
+                }
+            ],
+            "dynamic-data": [
+                {
+                    "format": "wien-realtime",
+                    "license": "cc-by-4.0",
+                    "url": "http://www.wienerlinien.at/ogd_realtime/",
+                    "meta-url": "https://www.data.gv.at/katalog/dataset/wiener-linien-echtzeitdaten-via-datendrehscheibe-wien"
+                }
+            ]
+        }
+    ]
+}

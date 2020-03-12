@@ -13,6 +13,7 @@ _Im Moment erreichen uns täglich neue Hinweise auf verfügbare und (halb-)offen
   * [OPEN API Portal]( https://developer.deutschebahn.com/store/)
 * [Meta-Übersicht der DB über Datenquellen](https://gobeta.de/projekte/dataportale/)
 * [Portal für statische Daten mehrerer Verbünde](https://www.opendata-oepnv.de/ht/de/willkommen) - heißt Open Data, ist aber leider nicht alles Open im eigentlichen Sinne
+* [mcloud -  Rechercheplattform zu offenen Daten aus dem Bereich Mobilität und angrenzender Themen des BMVI](https://www.mcloud.de/web/guest/suche/-/results/searchAction?_mcloudsearchportlet_aggsChoice=extras.subgroups%3A%22railway%22)
 
 ## (Ist-)Echtzeitdaten
 
@@ -48,6 +49,7 @@ _Im Moment erreichen uns täglich neue Hinweise auf verfügbare und (halb-)offen
 * Braunschweig bekommt bis 2022 überall Echtzeitanzeigen, [Artikel mit Kontaktdaten dazu](https://www.regionalverband-braunschweig.de/echtzeit/)
 * [DELFI e.V. hat im März 2019 Echtzeitdaten in D betrachtet und Handlungsbedarf geäußert](https://www.delfi.de/de/download/?f=20190331-finale_kurzfassung_kurzbericht_fops_dds_01-00.pdf)
 * DELFI nennt für Echtzeitdaten die TRIAS-Schnittstelle (Travellers' Reaktime Information and Advisory Standard)
+* [Linkliste "BahnData" von 2016](https://github.com/highsource/bahndata)
 
 ### Wegen Echtzeit-Datenzugriff anschreiben
 * VBB
@@ -67,11 +69,12 @@ _Im Moment erreichen uns täglich neue Hinweise auf verfügbare und (halb-)offen
 | Berlin                      | Diverser Nahverkehr (Tram, S-Bahn, U-Bahn, Bus)     | Nein               | HTTP-API / Json                  | Ja                                                  | Über andere API             | Ja       | Verfügbar, viel statisches Open Data                                                            | durch hohe Taktdichte nicht so relevant                              |
 | Bonn / VRS                  | Bus, Tram, Stadtbahn                                | [Jein][10]         | GTFS-Realtime                    | ?                                                   | ?                           | ?        | Offen für innovative Vorhaben                                                                   | Relativ umfangreiche Nutzungsbedinungen, müsste man genauer prüfen   |
 | Braunschweig                | Tram und Bus                                        | ?                  | ?                                | ?                                                   | Müsste (bald) vorliegen [4] | ?        | Gut für lokales Testen                                                                          | Evtl. Gar nicht verfügbar                                            |
-| Münster                     | Bus                                                 | [Nein][1]          | HTTP-API und Websocket / Json    | Ja                                                  | Nein                        | Ja       | Evtl. open data (ist angefragt), relativ gut für lokale Tests                                   | nur Busse                                                            |
+| Münster                     | Bus                                                 | [Nein][1]          | GTFS-Realtim, Rest, Websocket    | Ja                                                  | Nein                        | Ja       | Evtl. open data (ist angefragt), relativ gut für lokale Tests                                   | nur Busse                                                            |
 | Ulm                         | Bus, Straßenbahn, evtl. Bedarfsverkehr              | [Bald][2]          | ?                                | Ja                                                  | Nein                        | Ja       | Open Data für die Zukunft festgeschrieben                                                       | Noch nicht verfügbar                                                 |
 | Stuttgart                   | Bus, Stadtbahn, S-Bahn, Zahnradbahn, Standseilbahn  | [Bald][3]          | GTFS-Realtime                    | Ja                                                  | Nein                        | Ja       | evtl. erste deutsche Stadt mit GTFS-Realtime                                                    | Noch nicht verfügbar                                                 |
 | Herrenberg                  | Bus                                                 | ?                  | ?                                | Nein                                                | Nein                        | [Ja][3]  |                                                                                                 |                                                                      |
 | Deutschland                 | Fernzüge, Regionalzüge                              | Nein               | HAFAS-API und JS-Wrapper in FPTF | Nicht über HAFAS-Radar, aber über record-hafas-data | Ja                          | Ja       | Lange Taktzeiten für viel Relevant, große Zielgruppe, Community hat viel Erfahrung mit den APIs | Kein Open Data für Echtzeit                                          |
+| [Wien][11]                  | Bus, Tram, U-Bahn                                   | Ja                 | JSON                             | Nein                                                | Ja                          | Nein     |                                                                                                 | Eigenes Format, wenn auch gut dokumentiert                           |
 | Schweiz                     | Verschiedene Züge (?)                               | Ja                 | GTFS-Realtime                    | ?                                                   | ?                           | ?        | Realtime verfügbar und open data                                                                | Kein lokaler Test, kaum echte Relevanz                               |
 | Vereinigtes Königreich      | Zug, U-Bahn, Bus                                    | Ja, [limitiert][8] | GTFS / JSON                      | ?                                                   | Ja                          | ?        |                                                                                                 | Nur bis zu 30k Request pro Monat kostenlos                           |
 | Diverse Städte in den USA   | Nahverkehr                                          | Ja                 | GTFS-Realtime                    | ?                                                   | ?                           | ?        | Realtime verfügbar und open data, Praxiserprobt                                                 | Kein lokaler Test, keine echte Relevanz                              |
@@ -86,6 +89,7 @@ _Im Moment erreichen uns täglich neue Hinweise auf verfügbare und (halb-)offen
 [8]: https://www.transportapi.com/
 [9]: https://opendata.bonn.de/dataset/ist-daten-bus-und-bahn-%C3%B6pnv-realtime
 [10]: https://www.vrs.de/fileadmin/Dateien/api/NutzervereinbarungODOS.pdf
+[11]: https://opendata.guru/news/u-bahn-linie-d-nach-nussdorf-kommt-heute-28-sekunden-spaeter/
 
 ## Hintergrund-Informationen
 * [Umfangreiche FAQ zu Open Data im Nahverkehr von 2015](https://github.com/UlmApi/beyondtransit/blob/gh-pages/evu-daten-faq.md)
