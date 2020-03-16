@@ -1,5 +1,34 @@
 # Montagsupdates
-_Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt._
+_Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
+
+## Woche 2 (Update zum 16. März)
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1)
+
+### Das haben wir letzte Woche gemacht
+ * Weitere Datenquellen gefunden, darunter Echtzeitdaten für 2100 Fahrzeuge in Niedersachsen
+ * [Bekannte Datenquellen in einem maschinenlesbaren JSON-Format](datasources.json) niedergeschrieben
+ * Übersicht über alle Verkehrsunternehmen Deutschlands gestartet, dazu [ein paar kleine Tools](https://github.com/dystonse/dystonse-tools/tree/master/agencies) geschrieben
+ * [Versuche mit `docker buildx`](https://github.com/dystonse/docker-rust-test), um unseren künftigen Rust-Code gleich für mehrere Architekturen (amd64, armv7) zu bauen und zu deployen
+ * Einen Raspberry Pi als Versuchsserver mit Docker eingerichtet
+ * Mit GitHub Pages einen Blog auf [blog.dystonse.org](https://blog.dystonse.org/) eingerichtet und ersten [Blogpost über Datensammlung](http://blog.dystonse.org/opendata/2020/03/13/datensammlung.html) veröffentlicht
+ * Simples Skript zur Aufzeichnung der Echtzeitadten (alle 2 Minuten) und der Fahrpläne (1 mal täglich) geschrieben und in Betrieb genommen
+ * Manuell geprüft, ob die Echtzeitdaten sich mit dem Fahrplan referenzieren lassen (ja, es geht)
+
+### Das machen wir diese Woche
+ * Die Daten nicht nur einfach als Datei herunterladen, sondern in Datenbanken speichern
+ * Erste statistische Auswertungen über die Daten
+ * MacMini in Betrieb nehmen, der den Raspberry Pi unterstützt oder ersetzt
+ * Die Sammel- und Analysevorgänge dockerisieren, damit wir sie später leichter auf weitere Datenquellen ausweiten können
+ * Zwei Ideen zur speichereffizienten Langzeitarchivierung von Fahrplanversionen ausformulieren und veröffentlichen (wir sind noch nicht sicher, ob wir die je umsetzen werden)
+  
+### Das bremst uns gerade
+ * Fürchterliche Dokumentation von GitHub Pages, Ausfälle bei GitHub (inzwischen behoben)
+
+### Das motiviert uns gerade
+ * Dass unser Zuwendungsbescheid nun doch angekommen ist
+ * Dass wir endlich eine brauchbare Datenqulle gefunden haben
+ * Da diverse Termine und Veranstaltungen ausfallen und man eh zuhause bleiben soll, bleibt mehr Zeit für die Arbeit
 
 ## Woche 1 (Update zum 9. März)
 
@@ -32,3 +61,21 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Dass es endlich los geht und wir viel gutes Feedback aus der Community (vorallem über Twitter) bekommen
  * Die vielen Ecken und Enden, an denen wir etwas tun können
  * Dass 2024 die nötigen Echtzeitdaten für ganz Deutschland offen sein werden, und wir dann schon die passende Software haben werden
+
+_und hier das Template für künftige Wochen:_
+
+## Woche X (Update zum X. Xxx)
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1)
+
+### Das haben wir letzte Woche gemacht
+ * ?
+
+### Das machen wir diese Woche
+ * ?
+* 
+### Das bremst uns gerade
+ * ?
+
+### Das motiviert uns gerade
+ * ?
