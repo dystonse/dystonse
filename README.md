@@ -12,6 +12,19 @@ We are preparing a routing algorithm for public transit with the following key c
 ## Website
 **The prototype of the Dystonse website is available at [dystonse.org](https://dystonse.org) - there you can test the algorithm and read about the background of this project.**
 
+## Blog
+We just started out development blog at [blog.dystonse.org](https://blog.dystonse.org).
+
+## Development status
+This repository does not contain code, but we track our development and share some notes in the [project-status](./project-status) folder.
+
+## Data colletions
+We have started to collect real time data. Current colletion status: 
+
+Provider                             | Status
+-------------------------------------|----------------------------------------------------------------------
+Verkehrsverbund Bremen Niedersachsen | ![badge](https://healthchecks.io/badge/5441c6f8-5c30-4c41-826d-02327f/s_7xl3wR/record-vbn-realtime.svg)
+
 ## Development is happening somewhere else
 This repository serves only as a landing page for other repositorys, where the actual development will take place.
 
