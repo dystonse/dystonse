@@ -12,7 +12,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * [Versuche mit `docker buildx`](https://github.com/dystonse/docker-rust-test), um unseren künftigen Rust-Code gleich für mehrere Architekturen (amd64, armv7) zu bauen und zu deployen
  * Einen Raspberry Pi als Versuchsserver mit Docker eingerichtet
  * Mit GitHub Pages einen Blog auf [blog.dystonse.org](https://blog.dystonse.org/) eingerichtet und ersten [Blogpost über Datensammlung](http://blog.dystonse.org/opendata/2020/03/13/datensammlung.html) veröffentlicht
- * Simples Skript zur Aufzeichnung der Echtzeitadten (alle 2 Minuten) und der Fahrpläne (1 mal täglich) geschrieben und in Betrieb genommen
+ * Simples Skript zur Aufzeichnung der Echtzeitdaten (alle 2 Minuten) und der Fahrpläne (1 mal täglich) geschrieben und in Betrieb genommen
  * Manuell geprüft, ob die Echtzeitdaten sich mit dem Fahrplan referenzieren lassen (ja, es geht)
 
 ### Das machen wir diese Woche
@@ -24,11 +24,11 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
   
 ### Das bremst uns gerade
  * Fürchterliche Dokumentation von GitHub Pages, Ausfälle bei GitHub (inzwischen behoben)
+ * Andere Jobs und private Aufgaben
 
 ### Das motiviert uns gerade
  * Dass unser Zuwendungsbescheid nun doch angekommen ist
- * Dass wir endlich eine brauchbare Datenqulle gefunden haben
- * Da diverse Termine und Veranstaltungen ausfallen und man eh zuhause bleiben soll, bleibt mehr Zeit für die Arbeit
+ * Dass wir endlich eine brauchbare Datenquelle gefunden haben
 
 ## Woche 1 (Update zum 9. März)
 
@@ -73,7 +73,7 @@ _und hier das Template für künftige Wochen:_
 
 ### Das machen wir diese Woche
  * ?
-* 
+ 
 ### Das bremst uns gerade
  * ?
 
