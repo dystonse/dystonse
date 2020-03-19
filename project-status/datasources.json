@@ -261,10 +261,17 @@
             "static-data": [
                 {
                     "format": "gtfs",
-                    "license": "connect",
-                    "url": "",
+                    "license": "cc-by-sa-4.0",
+                    "url": "http://www.connect-info.net/opendata/gtfs/connect-nds-toplevel/ztqxhoilmd",
                     "meta-url": "http://www.connect-fahrplanauskunft.de/unsere-services/opendata.html",
-                    "comment": "After creating an account, you can see the different data sources, which may have different license agreements."
+                    "comment": "After creating an account, you can see the different data sources, which may have different license agreements.",
+                },
+                {
+                    "format": "gtfs",
+                    "license": "cc-by-sa-4.0",
+                    "url": "http://www.connect-info.net/opendata/gtfs/connect-nds-lowlevel/ztqxhoilmd",
+                    "meta-url": "http://www.connect-fahrplanauskunft.de/unsere-services/opendata.html",
+                    "comment": "After creating an account, you can see the different data sources, which may have different license agreements.",
                 }
             ],
             "dynamic-data": [
