@@ -11,6 +11,11 @@
             "url": "https://creativecommons.org/licenses/by/4.0/deed.de"
         },
         {
+            "id": "cc-by-sa-4.0",
+            "name": "Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY 4.0)",
+            "url": "http://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
             "id": "none",
             "name": "No license",
             "url": ""
@@ -79,18 +84,21 @@
             "name": "GTFS für Deutschland",
             "static-data": [
                 {
+                    "sub-id": "fern-free",
                     "format": "gtfs",
                     "license": "cc-by-4.0",
                     "url": "https://download.gtfs.de/germany/fv_free/latest.zip",
                     "comment": "Schienenfernverkehr Deutschland"
                 },
                 {
+                    "sub-id": "nah-free",
                     "format": "gtfs",
                     "license": "cc-by-4.0",
                     "url": "https://download.gtfs.de/germany/nv_free/latest.zip",
                     "comment": "ÖPNV Deutschland"
                 },
                 {
+                    "sub-id": "regional-free",
                     "format": "gtfs",
                     "license": "cc-by-4.0",
                     "url": "https://download.gtfs.de/germany/rv_free/latest.zip",
@@ -169,12 +177,14 @@
             "delfi-agency": "Verkehrsverbund Rhein-Sieg",
             "static-data": [
                 {
+                    "sub-id": "lokal",
                     "format": "gtfs",
                     "license": "cc-by-4.0",
                     "url": "http://download.vrsinfo.de/gtfs/google_transit.zip",
                     "meta-url": "https://www.vrs.de/fahren/fahrplanauskunft/opendata-/-openservice"
                 },
                 {
+                    "sub-id": "global",
                     "format": "gtfs",
                     "license": "cc-by-4.0",
                     "url": "http://download.vrsinfo.de/gtfs/Google_Transit_mit_GlobalIDs.zip",
@@ -203,18 +213,21 @@
             ],
             "dynamic-data": [
                 {
+                    "sub-id": "vehicles",
                     "format": "gtfs-rt",
                     "license": "meunster",
                     "url": "http://api.busradar.conterra.de/data/vehicles.pbf",
                     "meta-url": "http://api.busradar.conterra.de/"
                 },
                 {
+                    "sub-id": "tripudated",
                     "format": "gtfs-rt",
                     "license": "meunster",
                     "url": "http://api.busradar.conterra.de/data/tripupdates.pbf",
                     "meta-url": "http://api.busradar.conterra.de/"
                 },
                 {
+                    "sub-id": "alertupdates",
                     "format": "gtfs-rt",
                     "license": "meunster",
                     "url": "http://api.busradar.conterra.de/data/alertupdates.pbf",
@@ -260,18 +273,22 @@
             "name": "Verkehrsverbund Bremen Niedersachsen",
             "static-data": [
                 {
+                    "sub-id": "toplevel",
                     "format": "gtfs",
                     "license": "cc-by-sa-4.0",
                     "url": "http://www.connect-info.net/opendata/gtfs/connect-nds-toplevel/ztqxhoilmd",
                     "meta-url": "http://www.connect-fahrplanauskunft.de/unsere-services/opendata.html",
                     "comment": "After creating an account, you can see the different data sources, which may have different license agreements.",
+                    "by": "Connect-Fahrplanauskunft GmbH"
                 },
                 {
+                    "sub-id": "lowlevel",
                     "format": "gtfs",
                     "license": "cc-by-sa-4.0",
                     "url": "http://www.connect-info.net/opendata/gtfs/connect-nds-lowlevel/ztqxhoilmd",
                     "meta-url": "http://www.connect-fahrplanauskunft.de/unsere-services/opendata.html",
                     "comment": "After creating an account, you can see the different data sources, which may have different license agreements.",
+                    "by": "Connect-Fahrplanauskunft GmbH"
                 }
             ],
             "dynamic-data": [
