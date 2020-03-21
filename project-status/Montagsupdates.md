@@ -1,6 +1,31 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+
+## Woche 3 (Update zum 23. März)
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1)
+
+### Das haben wir letzte Woche gemacht
+ * Langzeitarchivierung von Fahrplandaten in git getestet - geht nur so mäßig, daher erstmal verworfen
+ * MacMini mit Debian und Docker eingerichtet, um Raspberry Pi zu ersetzen/ergänzen
+ * Fahrplandaten mit `gtfsdb` in eine Datenbank geladen - ist viel zu langsam für den ernsthaften Ansatz
+ * Angefangen, die Programmiersprache Rust zu lernen
+ * Fahrplandaten in Rust mit `gtfs-structures` gelesen, was 133 mal schneller ist als `gtfsdb`
+ * Fahrplandaten in Rust mit eigenem `csv`-basierten Parser gelesen, was nochmals 30 mal schneller ist `gtfs-structures`
+ * Definiert, was die Ein- und Ausgabeparameter der Prognose sind
+
+### Das machen wir diese Woche
+ * ?
+ 
+### Das bremst uns gerade
+ * Im Zuge der Covid-19-Prävention wurden große Teile des Nahverkehrs eingestellt, dadurch bekommen wir praktisch keine Echzeitdaten mehr. Zum Glück haben wir einige Tage zuvor mit der Aufzeichnung begonnen
+ * Das Cross-Compiling mit `docker buildx` schlägt nun [wegen eines bekannten Bugs](https://github.com/dystonse/docker-rust-test#known-problems-with-cross-compiling) fehl, für den es noch keine verfügare Lösung gibt
+
+### Das motiviert uns gerade
+ * Rust ist eine spannende Spreche, und sich darin einzuarbeiten ist anspruchsvoll, aber eben auch motivierend
+
+
 ## Woche 2 (Update zum 16. März)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1)

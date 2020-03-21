@@ -18,7 +18,8 @@ _hier sammeln wir allgemeine Notizen, die (noch) in keine gesonderte Datei gehö
 
 ## Rust
 * async / await ist seit November 2019 endlich stable und kann benutzt werden
-* Rust kann in WebAssembly kompiliert werden und im Browser laufen, mit Java Script verknüpft werden. So könnten wir Teile unseres Codes auf dem Server oder im Browser laufen lassen, ohne sie doppelt zu schreiben 
+* Rust kann in WebAssembly kompiliert werden und im Browser laufen, mit Java Script verknüpft werden. So könnten wir Teile unseres Codes auf dem Server oder im Browser laufen lassen, ohne sie doppelt zu schreiben
+* Tutorial bei dem man sowohl CSV-Deserialisierung mit Serde lernt, als auch einige Rust Basics: https://docs.rs/csv/1.1.3/csv/tutorial/index.html
 
 ## Architektur
 Ein paar lose Ideen zu Architektur und welche Features möglich wären, wenn wir auch direkt auf dem Endgerät Suchen berechnen könnten
