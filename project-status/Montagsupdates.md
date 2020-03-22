@@ -14,10 +14,10 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * [docker-compose-Konfiguration](https://github.com/dystonse/dystonse-docker) für Datenbank(-administration) aufgesetzt
  * Angefangen, die Programmiersprache Rust zu lernen
  * [Importer](https://github.com/dystonse/docker-rust-test) in Rust geschrieben, der folgendes tut:
-   * Fahrplandaten (aus gtfs) einlesen, auf drei verschiedene Weisen getestet:
-     * zunächst mit `gtfsdb`
-     * dann mit `gtfs-structures` (133 mal schneller als `gtfsdb`)
-     * `csv` selbst parsen (weitere 30 mal schneller als `gtfs-structures`, aber unpraktisch)
+   * Fahrplandaten (aus gtfs) einlesen. Wir haben das auf drei verschiedene Weisen getestet:
+     * zunächst mit [`gtfsdb`](https://github.com/OpenTransitTools/gtfsdb) (sehr langsam)
+     * dann mit [`gtfs-structures`](https://github.com/rust-transit/gtfs-structure) (133 mal schneller als `gtfsdb`)
+     * [`csv`](https://crates.io/crates/csv) selbst parsen (weitere 30 mal schneller als `gtfs-structures`, aber unpraktisch, daher verworfen)
    * Echtzeitdaten (aus gtfs-realtime) einlesen
    * Daten miteinander referenzieren
    * Daten in Datenbank schreiben
