@@ -5,6 +5,8 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 ## Woche 3 (Update zum 23. März) ENTWURF, DA DIE WOCHE NOCH NICHT VORBEI IST
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
 
 ### Das haben wir letzte Woche gemacht
  * Langzeitarchivierung von Fahrplandaten in git getestet - geht nur so mäßig, daher erstmal verworfen
@@ -19,17 +21,19 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
    * Echtzeitdaten (aus gtfs-realtime) einlesen
    * Daten miteinander referenzieren
    * Daten in Datenbank schreiben
- * Definiert, was die Ein- und Ausgabeparameter der Prognose sind
+ * Definiert und [Notizen](Notizen%20zur%20Prognoseberechnung.md) dazu gemacht, was die Ein- und Ausgabeparameter der Prognose sind
 
 ### Das machen wir diese Woche
- * ?
+ * Analyse der bisher gesammelten Daten
+ * Software-Komponente für die Prognoseberechnung entwickeln
+ * mehr Rust lernen
  
 ### Das bremst uns gerade
  * Im Zuge der Covid-19-Prävention wurden große Teile des Nahverkehrs eingestellt, dadurch bekommen wir praktisch keine Echzeitdaten mehr. Zum Glück haben wir einige Tage zuvor mit der Aufzeichnung begonnen
  * Das Cross-Compiling mit `docker buildx` schlägt nun [wegen eines bekannten Bugs](https://github.com/dystonse/docker-rust-test#known-problems-with-cross-compiling) fehl, für den es noch keine verfügare Lösung gibt
 
 ### Das motiviert uns gerade
- * Rust ist eine spannende Spreche, und sich darin einzuarbeiten ist anspruchsvoll, aber eben auch motivierend
+ * Rust ist eine spannende Sprache, und sich darin einzuarbeiten ist anspruchsvoll, aber eben auch motivierend
 
 
 ## Woche 2 (Update zum 16. März)
