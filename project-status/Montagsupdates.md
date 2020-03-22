@@ -9,10 +9,16 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 ### Das haben wir letzte Woche gemacht
  * Langzeitarchivierung von Fahrplandaten in git getestet - geht nur so mäßig, daher erstmal verworfen
  * MacMini mit Debian und Docker eingerichtet, um Raspberry Pi zu ersetzen/ergänzen
- * Fahrplandaten mit `gtfsdb` in eine Datenbank geladen - ist viel zu langsam für den ernsthaften Ansatz
+ * [docker-compose-Konfiguration](https://github.com/dystonse/dystonse-docker) für Datenbank(-administration) aufgesetzt
  * Angefangen, die Programmiersprache Rust zu lernen
- * Fahrplandaten in Rust mit `gtfs-structures` gelesen, was 133 mal schneller ist als `gtfsdb`
- * Fahrplandaten in Rust mit eigenem `csv`-basierten Parser gelesen, was nochmals 30 mal schneller ist `gtfs-structures`
+ * [Importer](https://github.com/dystonse/docker-rust-test) in Rust geschrieben, der folgendes tut:
+   * Fahrplandaten (aus gtfs) einlesen, auf drei verschiedene Weisen getestet:
+     * zunächst mit `gtfsdb`
+     * dann mit `gtfs-structures` (133 mal schneller als `gtfsdb`)
+     * `csv` selbst parsen (weitere 30 mal schneller als `gtfs-structures`, aber unpraktisch)
+   * Echtzeitdaten (aus gtfs-realtime) einlesen
+   * Daten miteinander referenzieren
+   * Daten in Datenbank schreiben
  * Definiert, was die Ein- und Ausgabeparameter der Prognose sind
 
 ### Das machen wir diese Woche
