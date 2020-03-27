@@ -10,6 +10,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 ### Das haben wir letzte Woche gemacht
  * Datensammlungs-Skripte in [Docker-Setup](https://github.com/dystonse/dystonse-docker) integriert
  * [Importer](https://github.com/dystonse/dystonse-gtfs-importer) so erweitert, dass mehrere Dateien auf einmal verarbeitet werden können.
+ * Anschließend automatischen Modus hinzugefügt, mit dem kontinuierlich neue Daten erkannt und in die Datenbank importiert werden.
 
 ### Das machen wir diese Woche
  * Analyse der bisher gesammelten Daten
