@@ -1,27 +1,28 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
-## Woche 4 (Update zum 30. März) - ENTWURF, DA DIE WOCHE NOCH NICHT VORBEI IST -
+## Woche 4 (Update zum 30. März)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1)
  2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
- 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
 
 ### Das haben wir letzte Woche gemacht
- * Datensammlungs-Skripte in [Docker-Setup](https://github.com/dystonse/dystonse-docker) integriert
+ * Datensammlungs-Skripte und Importer in [Docker-Setup](https://github.com/dystonse/dystonse-docker) integriert
  * [Importer](https://github.com/dystonse/dystonse-gtfs-importer) so erweitert, dass mehrere Dateien auf einmal verarbeitet werden können.
  * Anschließend automatischen Modus hinzugefügt, mit dem kontinuierlich neue Daten erkannt und in die Datenbank importiert werden.
 
 ### Das machen wir diese Woche
- * Analyse der bisher gesammelten Daten
+ * Datensammlung robuster machen (Fehlerbehandlung, Monitoring)
+ * Analyse der bisher gesammelten Daten (zunächst Datenqualität und -Menge, dann Statistik über Verspätungen)
+ * Anlegen von neuen Datenquellen automatisieren 
  * Software-Komponente für die Prognoseberechnung entwickeln
- * mehr Rust lernen
  
 ### Das bremst uns gerade
- * 
+ * Durch das Corona-Virus ist Nahverkehr gerade kein besonders populäres Thema, was z.B. Nutzer\*innen-Befragungen schwierig machen könnte
+ * andere Jobs und Verpflichtungen
 
 ### Das motiviert uns gerade
- * 
+ * Dass wir zwei gemeinsam im selben Homeoffice arbeiten können (das sogenannte "Social Dystonsing" 😉)
 
 ## Woche 3 (Update zum 23. März)
 ### An diesen Milestones arbeiten wir gerade
