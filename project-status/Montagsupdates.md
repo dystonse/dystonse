@@ -12,10 +12,10 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Anschließend automatischen Modus hinzugefügt, mit dem kontinuierlich neue Daten erkannt und in die Datenbank importiert werden.
 
 ### Das machen wir diese Woche
- * Datensammlung robuster machen (Fehlerbehandlung, Monitoring)
+ * Datensammlung robuster machen (Fehlerbehandlung, Monitoring, etc.)
  * Analyse der bisher gesammelten Daten (zunächst Datenqualität und -Menge, dann Statistik über Verspätungen)
  * Anlegen von neuen Datenquellen automatisieren 
- * Software-Komponente für die Prognoseberechnung entwickeln
+ * evtl. mit der Entwicklung der Software-Komponente für die Prognoseberechnung beginnen
  
 ### Das bremst uns gerade
  * Durch das Corona-Virus ist Nahverkehr gerade kein besonders populäres Thema, was z.B. Nutzer\*innen-Befragungen schwierig machen könnte
