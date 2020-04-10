@@ -1,6 +1,27 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 6 (Update zum 13. April) - ENTWURF - 
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+
+### Das haben wir letzte Woche gemacht
+ * Einfache Visualisierungen der bisher gesammelten Daten, um die Menge und Qualität der Daten einzuschätzen (schwankt leider sehr)
+ * Visualisierung von einzelnen (Sub)Routen im Stil von Bildfahrplänen als neue Funktion unseres [dystonse-gtfs-data](https://github.com/dystonse/dystonse-gtfs-data)-Tools implementiert.
+ * Die Datenstrukturen für `Trip`s im Paket [gtfs-structures](https://github.com/rust-transit/gtfs-structure) um ein Feld für die optionale `shape_id` erweitert, die wir auch für unsere Visualisierung nutzen, und dafür einen Pull request erstellt.
+
+### Das machen wir diese Woche
+ * ???
+ 
+### Das bremst uns gerade
+ * Andere Jobs und private Aufgaben
+ * die ungewisse Zukunft (Absage vieler Veranstaltungen etc. durch die Corona-Krise) drückt mittlerweile schon etwas auf unsere Stimmung und Energie
+
+### Das motiviert uns gerade
+ * Mit der Visualisierung der Daten haben wir direkt etwas sichtbares als Ergebnis.
+
 ## Woche 5 (Update zum 6. April)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
