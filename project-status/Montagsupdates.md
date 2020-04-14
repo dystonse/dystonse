@@ -1,7 +1,7 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
-## Woche 6 (Update zum 13. April) - ENTWURF - 
+## Woche 6 (Update zum ~~13.~~ 14. April)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
  2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
@@ -35,8 +35,8 @@ Auf der Y-Achse schreitet von unten nach oben die Zeit voran, hier also von etwa
 ### Das machen wir diese Woche
  * Datenqualität sichten und prüfen, ob wir systematische Fehler beim Sammeln / Import gemacht haben
  * ggf. Fehler beheben und neu importieren
- * weitere Analyse der Echtzeitdaten, auf das wir bald zu einem statistischen Modell für die Prognose kommen
- * ggf. neuer Blog-Post zu unsere Erkenntnissen und Zwischenergebnissen
+ * weitere Analyse der Echtzeitdaten, auf dass wir bald zu einem statistischen Modell für die Prognose kommen
+ * ggf. neuer Blog-Post zu unseren Erkenntnissen und Zwischenergebnissen
  
 ### Das bremst uns gerade
  * Andere Jobs und private Aufgaben
