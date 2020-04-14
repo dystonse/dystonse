@@ -18,7 +18,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Ein neues [Repository für manuelle Tests](https://github.com/dystonse/dystonse-tests) angelegt, um für "mal eben schnell gucken, ob die Daten jetzt richtig aussehen" weniger in unserem eigentlichen Code rumbasteln zu müssen.
 
 ### Bilder
-Die Menge der Daten, die wir über die Tage verteilt sammeln konnten:
+Die Menge der Daten, die wir über die Tage verteilt sammeln konnten. Im Bild müsste es eigentlich _VRN (Verkehrsverbund Rhein Neckar)_ und _**VBN** (Verkehrsverbund Bremen Niedersachsen)_ heißen.
 
 ![Datenmenge](img/Datenmenge_02.png)
 
