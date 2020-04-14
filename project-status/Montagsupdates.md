@@ -18,9 +18,9 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Ein neues [Repository für manuelle Tests](https://github.com/dystonse/dystonse-tests) angelegt, um für "mal eben schnell gucken, ob die Daten jetzt richtig aussehen" weniger in unserem eigentlichen Code rumbasteln zu müssen.
 
 ### Bilder
-Die Menge der Daten, die wir über die Tage verteilt sammeln konnten. Im Bild müsste es eigentlich _VRN (Verkehrsverbund Rhein Neckar)_ und _**VBN** (Verkehrsverbund Bremen Niedersachsen)_ heißen.
+Die Menge der Datenpunkte, die wir pro Stunde sammeln konnten. Der blaue Graph zeigt Daten aus dem _VRN (Verkehrsverbund Rhein Neckar)_ und der grüne aus dem _VBN (Verkehrsverbund Bremen Niedersachsen)_.
 
-![Datenmenge](img/Datenmenge_02.png)
+![Datenmenge](img/Datenmenge_03.png)
 
 Hier ein Beispiel für einen von uns generierten Bildfahrplan:
 
