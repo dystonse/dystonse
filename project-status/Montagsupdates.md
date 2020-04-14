@@ -8,14 +8,35 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
 
 ### Das haben wir letzte Woche gemacht
- * Einfache Visualisierungen der bisher gesammelten Daten, um die Menge und Qualität der Daten einzuschätzen (schwankt leider sehr)
- * Visualisierung von einzelnen (Sub)Routen im Stil von Bildfahrplänen als neue Funktion unseres [dystonse-gtfs-data](https://github.com/dystonse/dystonse-gtfs-data)-Tools implementiert.
+(wie immer: viel Text, aber diesmal auch ein paar Bilder!)
+
+ * Einfache, quantitative Visualisierungen der bisher gesammelten Daten, um die Menge und Qualität der Daten einzuschätzen (schwankt leider sehr).
+ * Versuch, die verschiedenen Varianten von (Bus-)Linien zu verstehen und algorithmisch zu verstehen. Dabei entstehen unhandliche Grafiken wie die folgende: [haltestellen_03.png](img/haltestellen_03.png).
+ * Visualisierung von einzelnen (Sub)Routen in Raum-Zeit-Diagrammen im Stil von [Bildfahrplänen](https://de.wikipedia.org/wiki/Bildfahrplan) als neue Funktion unseres [dystonse-gtfs-data](https://github.com/dystonse/dystonse-gtfs-data)-Tools implementiert. Beispiel siehe unten.
  * Die Datenstrukturen für `Trip`s im Paket [gtfs-structures](https://github.com/rust-transit/gtfs-structure) um ein Feld für die optionale `shape_id` aus dem GTFS-Standard erweitert, die wir auch für unsere Visualisierung nutzen, und dafür einen Pull request erstellt.
  * In unserer Version der [gtfs-structures](https://github.com/dystonse/gtfs-structure) ein neues Feld `route_variant` eingeführt, dessen Wert aus der Haltestellen-Abfolge berechnet wird (damit weichen wir zwar vom GTFS-Standard ab, aber es ist zuverlässiger, da die optionale `shape_id` von einem der Anbieter, die wir aktuell verwenden, oft nicht angegeben wird.)
  * Ein neues [Repository für manuelle Tests](https://github.com/dystonse/dystonse-tests) angelegt, um für "mal eben schnell gucken, ob die Daten jetzt richtig aussehen" weniger in unserem eigentlichen Code rumbasteln zu müssen.
 
+### Bilder
+Die Menge der Daten, die wir über die Tage verteilt sammeln konnten:
+
+![Datenmenge](img/Datenmenge_02.png)
+
+Hier ein Beispiel für einen von uns generierten Bildfahrplan:
+
+![Bildfahrplan](img/Bildfahrplan_01.png)
+
+Auf der Y-Achse schreitet von unten nach oben die Zeit voran, hier also von etwa 12:00 bis 18:00. Von links nach rechts verläuft die Buslinie 430 in Oldenburg. Die Bedeutung der Linien je nach Farbe:
+
+ * **schwarz:** Der Verlauf laut Fahrplan
+ * **grün:** Reale Fahrten an einem Wochentag
+ * **rot:** Reale Fahrten an einem Sonntag
+
 ### Das machen wir diese Woche
- * ???
+ * Datenqualität sichten und prüfen, ob wir systematische Fehler beim Sammeln / Import gemacht haben
+ * ggf. Fehler beheben und neu importieren
+ * weitere Analyse der Echtzeitdaten, auf das wir bald zu einem statistischen Modell für die Prognose kommen
+ * ggf. neuer Blog-Post zu unsere Erkenntnissen und Zwischenergebnissen
  
 ### Das bremst uns gerade
  * Andere Jobs und private Aufgaben
