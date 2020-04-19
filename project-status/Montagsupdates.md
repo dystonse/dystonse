@@ -1,6 +1,28 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 7 (Update zum 20. April) -ENTWURF-
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 
+### Das haben wir letzte Woche gemacht 
+ * Die Generierung von Bildfahrplänen verbessert.
+ * Datenbank-Indizes verbessert (und dabei viel ausprobiert und gelernt), damit die Abfragen auf unserer großen Datenmenge trotzdem noch in brauchbarer Zeit fertig werden.
+ * Einen ausführlichen [Blogpost](hier Link einfügen) über unsere Fortschritte des letzten Monats vorbereitet.
+ 
+### Das machen wir diese Woche
+ * Die Datenbank weiter verbessern, ggf. neu aufsetzen falls nötig.
+ * Datenanalysen nicht nur "mit den Augen" durch Bildfahrpläne, sondern als statistische Zahlenwerte.
+
+### Das bremst uns gerade
+ * Andere Jobs und private Aufgaben
+ * Viele unserer Datensätze wirken trotz insgesamt großer Mengen noch so lückenhaft, dass wir möglicherweise bald noch weitere Quellen suchen müssen, deren Daten weniger fehlerhaft sind (aber dafür dann wahrscheinlich noch nicht so _richtig_ Open Data).
+ 
+### Das motiviert uns gerade
+ * Die erste Auszahlung unseres Fördergeldes kommt wahrscheinlich bald bei uns an.
+ 
 ## Woche 6 (Update zum ~~13.~~ 14. April)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
