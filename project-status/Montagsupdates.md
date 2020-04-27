@@ -1,6 +1,32 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 8 (Update zum 27. April) ENTWURF
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 
+### Das haben wir letzte Woche gemacht 
+ * Infos über asynchrone Funktionen in Rust recherchiert, um rauszufinden, ob wir damit unsere Berechnungen evtl. beschleunigen können.
+ * [Diagramme](Link zu Tweet) erstellt, um zu visualisieren, wie sich die Verspätung eines Busses zwischen verschiedenen Haltestellen verändert - dabei haben wir leider einige unplausible Auffälligkeiten in den Daten bemerkt.
+ * Diverse organisatorische Aufgaben im Rahmen unserer Förderung.
+ 
+### Das machen wir diese Woche
+ * Planung, Recherche und Überlegung, wie wir mit den bisherigen Daten besser arbeiten können und/oder weitere Datenquellen suchen.
+ * Umsetzung davon, je nachdem was dabei rauskommt.
+ * Datenstrukturen für die Prognose-Komponente definieren.
+ * Weitere organisatorische Aufgaben nachholen, die zwischendurch liegen geblieben sind.
+
+### Das bremst uns gerade
+ * Andere Jobs und private Aufgaben
+ * Die Arbeit mit der Datenbank und den fehlerhaften Daten ist oft frustrierend.
+ * Unser erstes Fördergeld ist immer noch nicht angekommen und wir werden langsam nervös, ob wir mit dem Geld von unseren anderen Jobs alleine noch finanziell über den Monatswechsel kommen.
+
+### Das motiviert uns gerade
+ * Home Office zu zweit funktioniert immer noch gut.
+ * Bald kommen wieder spannende Programmieraufgaben auf uns zu.
+
 ## Woche 7 (Update zum 20. April)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
