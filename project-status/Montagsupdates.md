@@ -1,7 +1,7 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
-## Woche 8 (Update zum 27. April) ENTWURF
+## Woche 8 (Update zum 27. April)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
  2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
@@ -9,7 +9,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  
 ### Das haben wir letzte Woche gemacht 
  * Infos über asynchrone Funktionen in Rust recherchiert, um rauszufinden, ob wir damit unsere Berechnungen evtl. beschleunigen können.
- * [Diagramme](Link zu Tweet) erstellt, um zu visualisieren, wie sich die Verspätung eines Busses zwischen verschiedenen Haltestellen verändert - dabei haben wir leider einige unplausible Auffälligkeiten in den Daten bemerkt.
+ * [Diagramme](https://twitter.com/dystonse/status/1253389857935757318) erstellt, um zu visualisieren, wie sich die Verspätung eines Busses zwischen verschiedenen Haltestellen verändert - dabei haben wir leider einige unplausible Auffälligkeiten in den Daten bemerkt.
  * Diverse organisatorische Aufgaben im Rahmen unserer Förderung.
  
 ### Das machen wir diese Woche
