@@ -1,6 +1,30 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 9 (Update zum 4. Mai)
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 
+ ### Das haben wir letzte Woche gemacht 
+ * Ein mathematisches Konzept für die komprimierte Speicherung der gesammelten Verspätungsdaten entwickelt, um Speicherplatz zu sparen und schnelle Zugriffe zu ermöglichen.
+ * Verschiedene organisatorische Dinge
+ 
+ ### Das machen wir diese Woche
+ * Recherche zu Server-Angeboten, um unsere Infrastruktur langfristig außerhalb unseres Home Office betreiben zu können
+ * Bisherigen Code etwas aufräumen
+ * Komprimiertes Speicherkonzept in Programmcode umsetzen
+ * Weitere manuelle / grafische Analysen unserer gesammelten Daten
+ 
+ ### Das bremst uns gerade
+ * Wir sind allgemein etwas erschöpft und haben letzte Woche nicht viel geschafft
+ 
+ ### Das motiviert uns gerade
+ * Die erste Auszahlung von unserem Fördergeld ist inzwischen angekommen
+ * Bald fängt unser erstes Coaching an
+ 
+
 ## Woche 8 (Update zum 27. April)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
