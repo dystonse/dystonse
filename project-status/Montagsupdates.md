@@ -1,6 +1,30 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 10 (Update zum 11. Mai)
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 
+ ### Das haben wir letzte Woche gemacht 
+ * Den Datenbankserver um eine SSD erweitert.
+ * [Datenbankschema umgestellt](https://github.com/dystonse/dystonse-docker/commit/94dbb56b310636ca1f30b2016aed540d8656a1c8), so dass wir weniger Speicherplatz brauchen. Jetzt passt unsere gesamte Datenbank in den Cache. Dadurch, und durch einen anderen Primärindex, sind unsere Abfragen darauf nun wieder sehr viel schneller.
+ * [Importer an das neue Schema angepasst](https://github.com/dystonse/dystonse-gtfs-data/commit/dd1cf85c6b4836d8703230016807f8954966c0a8).
+ * Alle Daten neu importiert.
+ 
+ ### Das machen wir diese Woche
+ * Analysetool (das derzeit Bildfahrpläne generiert) an das neue Schema anpassen (bereits angefangen).
+ * Weitere Analysefunktionen implementieren (gemäß der Planungen der letzten zwei Wochen).
+ 
+ ### Das bremst uns gerade
+ * Private Angelegenheiten brauchen gerade viel Energie.
+ 
+ ### Das motiviert uns gerade
+ * Lena hat ihren anderen Job verloren und deshalb ab Juni mehr Zeit und vor allem mehr Konzentration für Dystonse.
+ 
+
+
 ## Woche 9 (Update zum 4. Mai)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
