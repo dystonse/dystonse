@@ -1,6 +1,28 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 11 (Update zum 18. Mai)
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 
+ ### Das haben wir letzte Woche gemacht 
+ * Anpassung des Analysetools an das neue Datenbankschema fertiggestellt.
+ * [Readme-Datei unseres Haupt-Repos](https://github.com/dystonse/dystonse/blob/master/README.md) aktualisiert mit Links zu den neuen Projekt-Repos und Infos, woran wir gerade arbeiten.
+ * Monitoring unserer Datensammlung verbessert.
+ 
+ ### Das machen wir diese Woche
+ * Analysetool erweitern
+ * Hoffentlich mit der Prognoseberechnung anfangen
+ 
+ ### Das bremst uns gerade
+ * Wir waren letzte Woche beide etwas krank und haben daher nicht viel geschafft.
+ * Private Angelegenheiten hier zuhause sind gerade immer noch stressig.
+ 
+ ### Das motiviert uns gerade
+ * Dadurch, dass die Datenbank jetzt schnell läuft, können wir viel mehr mit den Daten anfangen und haben weniger nervige Wartezeiten.
+
 ## Woche 10 (Update zum 11. Mai)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
