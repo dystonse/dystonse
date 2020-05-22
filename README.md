@@ -34,6 +34,7 @@ This repository serves only as a landing page for other repositorys, where the a
  * **[dystonse-website](https://github.com/dystonse/dystonse-website)** The website of Dystonse, which features both a GUI to perform searches and a lot of background information about the project _(working, but currently not maintained while we're working on the backend)_
  * **[dystonse-search-node](https://github.com/dystonse/dystonse-search-node)** The first implementation of the Dystonse search algorithm. It actually works and serves as backend for the _website_. Development will be discontinued in favor of a clean implementation in Rust. _(working)_
  * **[dystonse-search-rust](https://github.com/dystonse/dystonse-search-rust)** This will be the home of the reimplementation  of the Dystonse search algorithm. _(no content yet)_
+ * **[dystonse-curves](https://github.com/dystonse/dystonse-curves)** A rust crate for storage and manipulation of probability curves. _(development in very early stage)_
  * **[dystonse-tools](https://github.com/dystonse/dystonse-tools)** Various tools that are somehow useful for our project, but not the main focus of our development.
    * **[Agencies tool](https://github.com/dystonse/dystonse-tools/tree/master/agencies)** A tool for gathering and organizing information about German transit agencies. _(working)_
    * Some Java-based tools from 2017. Development paused / discontinued.
