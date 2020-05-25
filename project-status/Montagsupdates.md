@@ -1,6 +1,26 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 12 (Update zum 25. Mai)
+### An diesen Milestones arbeiten wir gerade
+ 1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 
+ ### Das haben wir letzte Woche gemacht 
+ * Datenstrukturen für ein zentrales Konzept unseres Projekts in Programmcode umgesetzt: [Kurven](https://github.com/dystonse/dystonse-curves) für die kumulierte Wahrscheinlichkeit in verschiedenen Varianten.
+ * Grafische Darstellung der Kurven mit [gnuplot](https://docs.rs/gnuplot/0.0.36/gnuplot/) ausprobiert und als Beispiele in unseren Code eingebaut.
+ 
+ ### Das machen wir diese Woche
+ * Die Kurven-Datenstrukturen und ihre grafische Darstellung um weitere Funktionen ergänzen.
+ * Ausprobieren, wie wir die Berechnungen auf den Kurven mit den gesammelten Daten aus der Datenbank verknüpfen können, um daraus die Prognosen zu generieren.
+ 
+ ### Das bremst uns gerade
+ * Private Angelegenheiten hier zuhause sind gerade immer noch stressig.
+ 
+ ### Das motiviert uns gerade
+ * Mit den Kurven haben wir einen neuen Abschnitt unseres Projekts in Angriff genommen, an dem wir jetzt direkt neue Fortschritte sehen können.
+
 ## Woche 11 (Update zum 18. Mai)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
