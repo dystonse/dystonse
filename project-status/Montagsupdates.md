@@ -11,10 +11,20 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Verschiedene Detailverbesserungen an den [Kurven](https://github.com/dystonse/dystonse-curves)-Strukturen.
  * Die Kurven um neue Funktionalität ergänzt: Gewichtete Interpolation zwischen mehreren Kurven.
  * Code in [dystonse-gtfs-data](https://github.com/dystonse/dystonse-gtfs-data) aufgeräumt / umstrukturiert für mehr Übersichtlichkeit.
- * Einlesen von Daten aus der Datenbank in die neue Kurven-Struktur angefangen zu implementieren.
+ * **Erste statistische Analysen der gesammelten Verspätungsdaten unter Verwendung der Kurven. Das ist ein riesiger, ganz zentraler Meilenstein, der sehr bald seinen eigenen Blogpost zur Erläuterung verdient!**
+
+Im Folgengen ein kleines Beispiel für die Analysen.
+
+![Beispielkurve](img/curve_example_1.svg)
+
+Zu sehen ist die Straßenbahnlinie 1 in Bremen. Auf der X-Achse ist ihre Verspätung an der Endhaltestelle in Sekunden aufgetragen, und die Y-Achse zeigt die Wahrscheinlichkeit, dass die Bahn höchsten so viel verspätet ist. Alle Daten (einige Tausend Echtzeitaufzeichnungen) wurden danach gruppiert, wie viel verspätung die selbe Bahn zwei Haltestellen zuvor hatte, und für jede solche Gruppe eine Kurve erzeugt.
+
+Unsere Software erstellt eine solche Grafik durchschnittlich innerhalb von 85ms, inkl. des Einlesens des Fahrplans und der Abfrage der Daten aus der Datenbank.
  
  ### Das machen wir diese Woche
  * Weitere Funktionen für die Prognoseberechnung mit den neuen Kurven
+ * Möglichkeit, die Daten in nicht-grafischer Form abzuspeichern
+ * Blogpost über die Bedeutung dieser Kurven, also was sie darstellen und warum sie so zentral für unser Projekt sind 
  
  ### Das bremst uns gerade
  * Andere Jobs und private Aufgaben
@@ -28,7 +38,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
  2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
- 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3) 
  
  ### Das haben wir letzte Woche gemacht 
  * Datenstrukturen für ein zentrales Konzept unseres Projekts in Programmcode umgesetzt: [Kurven](https://github.com/dystonse/dystonse-curves) für die kumulierte Wahrscheinlichkeit in verschiedenen Varianten.
