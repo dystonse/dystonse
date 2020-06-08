@@ -1,6 +1,35 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+
+## Woche 14 (Update zum 8. Juni)
+### An diesen Milestones arbeiten wir gerade
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+
+### Das haben wir letzte Woche gemacht
+ * Viel Arbeit an den statistischen Auswertungen und ihrer Visualisierung, darunter:
+   * Rundungs-Artefakte in den Rohdaten gefunden und einen Workaround dafür gefunden
+   * Bessere Aufteilung der Rohdaten in Klassen von Anfangsverspätungen
+   * Datenpunkte werden nicht mehr strikt in eine dieser Klassen zugeteilt, sondern gehen gewichtet in (bis zu) zwei benachbarte Klassen ein
+   * Grafische Verbesserungen wie z.B. bessere Farbauswahl, verständlichere Legende, etc.
+ * Durchschauen der generierten Kurven und manuelle Prüfung auf Plausibilität. Unter anderem haben wir aus charakteristischen Mustern in den Kurven das Vorhandensein einer Ampel direkt vor einer Bushaltestelle vorhergesagt und anschließend mit Satellitenbildern bestätigt.
+ * Kleine [Ergänzung](https://github.com/rust-transit/gtfs-structure/pull/66) am GTFS-Parser.
+ * Vorbereitung eines neuen Blogposts, der die Arbeit(-sergebnisse) der letzten zwei Wochen beschreibt. Dieser ist leider nicht mehr vor dem heutigen Update fertig geworden.
+
+### Das machen wir diese Woche
+ * Den Blogpost fertig stellen. Dazu fehlt noch eine ganze Menge Text, aber auch kleine Anpassungen an unserer Software um erklärende Grafiken zu generieren.
+ * Ausweitung unserer Analysen auf alle gesammelten Linien - bisher haben wir nur zwei Bus- und zwei Tramlinien aus Bremen und Oldenburg betrachtet.
+ * Evtl. bereits erste Version einer einfachen Prognosekomponente, die auf den Analysen aufbaut.
+ 
+### Das bremst uns gerade
+ * Das Übliche :/
+
+### Das motiviert uns gerade
+ * Die Kurven bildlich zu sehen bestätigt weiterhin viele zuvor ungeprüfte Annahmen über die Daten bzw. das Wesen von Verspätungen allgemein.
+ * Bei den statistischen Methoden verlassen wir eigentlich deutlich unsere Comfort Zone - also den Bereich dessen, wo wir uns fachlich sicher fühlen - und trotzdem geht es damit sehr reibungslos voran.
+
+
 ## Woche 13 (Update zum ~~1.~~ 2. Juni)
 ### An diesen Milestones arbeiten wir gerade
  1. [Kontinuierliche Verspätungs-Datensammlung planen, aufbauen und betreiben](https://github.com/dystonse/dystonse/milestone/1) (ab jetzt hauptsächlich nur noch der "betreiben"-Anteil)
