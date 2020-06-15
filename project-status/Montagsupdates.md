@@ -9,7 +9,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
 
 ### Das haben wir letzte Woche gemacht
- * Einen sehr ausführlichen [Blogpost über unsere statistischen Auswertungen(http://blog.dystonse.org/analysis/2020/06/10/kurven.html) geschrieben
+ * Einen sehr ausführlichen [Blogpost über unsere statistischen Auswertungen](http://blog.dystonse.org/analysis/2020/06/10/kurven.html) geschrieben
  * Viele Detailverbesserungen an den grafischen Darstellungen gemacht und dabei viel über [Gnuplot](http://www.gnuplot.info/) gelernt
  * Eine Metrik erdacht und implementiert, mit der sich die Unterschiedlichkeit mehrerer Wahrscheinlichkeitsverteilungen als Wert ausdrücken lässt
  * Recherche zur Datenserialisierung mit Rust, um unsere Analysen maschinenlesbar zu speichern
@@ -18,11 +18,11 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 ### Das machen wir diese Woche
  * Code aufräumen. In [dystonse-gtfs-data](https://github.com/dystonse/dystonse-gtfs-data) ist der Code zur Datenverarbeitung und zur grafischen Darstellung noch viel zu stark vermischt.
  * Implementierung der oben genannten Datenserialisierung mit [Serde](https://serde.rs/) / [MessagePack](https://msgpack.org/) oder [Protocol Buffers](https://developers.google.com/protocol-buffers)
- * Evtl. bereits erste Version einer einfachen Prognosekomponente, die auf den Analysen aufbaut. (wir schon eine Woche zuvor gehofft)
- * Evtl. Statistische Gesamtauswertung für alle Busse / alle Straßenbahnen, etc., um ein Fallback für die (vielen!) Linien zu bieten, für die wir grundsätzlich keine Echtzeitdaten haben. Damit könnten wir auch schon die Neuimplementierung der Routensuche angehen.
+ * Evtl. bereits erste Version einer einfachen Prognosekomponente, die auf den Analysen aufbaut (wie schon eine Woche zuvor gehofft).
+ * Statistische Gesamtauswertungen mit vereinfachten Parametern (z.B. für alle Busse / alle Straßenbahnen, etc.), um ein Fallback für die (vielen!) Linien zu bieten, für die wir grundsätzlich keine Echtzeitdaten haben. Damit könnten wir auch schon die Neuimplementierung der Routensuche angehen.
  
 ### Das bremst uns gerade
- * Oft verzetteln wir uns in aufwändigen Lösungen für Detailprobleme und verlieren dabei das große Ganze etwas aus den Augen. Diese Lösungen fühlen sich dann zwar für den Moment wie ein wichtiger Erfolg an, aber bremesen ums im Gesamtverlauf.
+ * Oft verzetteln wir uns in aufwändigen Lösungen für Detailprobleme und verlieren dabei das große Ganze etwas aus den Augen. Diese Lösungen fühlen sich dann zwar für den Moment wie ein wichtiger Erfolg an, aber bremsen ums im Gesamtverlauf.
 
 ### Das motiviert uns gerade
  * Der Blogpost wurde ganz gut geteilt und wir haben viel positives Feedback dafür und ein paar neue Kontakte dadurch bekommen.
