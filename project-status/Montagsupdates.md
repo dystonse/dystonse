@@ -3,6 +3,36 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 
 
+
+## Woche 16 (Update zum 22. Juni - **ENTWURF**)
+### An diesen Milestones arbeiten wir gerade
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+
+### Das haben wir letzte Woche gemacht
+ * Die größte Aufräumaktion die unser Code bisher gesehen hat. Es lässt sich nicht klar von den neuen Features trennen, aber allein `dystonse-gtfs-data` hatte in dieser Woche `22 files changed, 1705 insertions(+), 2078 deletions(-)`.
+ * Unterteilung Daten und Analysen nach Wochentag und Uhrzeit in [11 disjunkte `TimeSlots`](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/types/time_slots.rs) die dem [Wikipedia-Beipsiel der Verkehrszeiten in Bottrop](https://de.wikipedia.org/wiki/Verkehrszeiten#Beispiele) nachempfunden sind.
+ * Allgemeinere Statistiken über Verspätungen, damit wir auch für die vielen Linien Prognosen erstellen können, für die wir gar keine Echtzeitdaten haben. Dabei Betrachten wir Anfang, Mitte und Ende jeder Linie gesondert, nachdem [David Kriesl in seinem Vortrag zum 'BahnMining'](http://www.dkriesel.com/blog/2019/1229_video_und_folien_meines_36c3-vortrags_bahnmining) heraus gestellt hat, wie verschieden sich Verspätungen da auswirken
+ * Die Analyse der Verspätungen und das Erzeugen der Grafiken sind nun sauber getrennt. Dabei funktioniert die Analyse immer noch, die Grafikerzeugung ist momentan nicht ganz einsatzbereit.
+ * Die Analysen können jetzt in eine große maschinenlesbare Datei (MessagePack) oder Ordnerstrukturen mit sehr vielen (!) Dateien (MessagePack oder JSON) geschrieben werden. Dabei sind diverse Zwischenstufen konfigurierbar.
+ * Das [Grundgerüst für die Erstellung von Prognosen](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/predictor/mod.rs) steht nun.
+
+### Das machen wir diese Woche
+ * Prognosen! In dieser Woche sollen endlich erste eigene Prognosen entstehen. Dazu feht gar nicht mehr so viel Code.
+ * Die Erstellung der Prognosen muss aber auch in ein größeres Framework mit API, Caching, etc. eingebunden werden. Da müssen wir noch viel planen.
+ * Es fehlt noch etwas Code, um die Analyse-Daten wieder einzulesen, wenn diese nicht in einer einzelnen Datei sondern einer Ordnerhierarchie vorliegen.
+ * Unter anderem durch unseren [Blogpost vom 10.6.](http://blog.dystonse.org/analysis/2020/06/10/kurven.html) haben uns ein paar Zuschriften von Verkehrsverbünden, Unternehmen und anderen OpenSource-Teams erreicht. Die wollen wir nun angemessen beantworten und schauen, welche Arten der Kooperation da möglich sind.
+ * Uns um Coaching-Termine kümmern.
+ 
+### Das bremst uns gerade
+ * Das gute Wetter und die knapp 30°C in unserem Arbeitszimmer
+
+### Das motiviert uns gerade
+ * Das gute Wetter
+ * Dass wir bald eine neue Auszahlung beantragen können :)
+ * Dass nur noch etwa 2 Monate verbleiben - das ist allerdings gleichermaßen motivierend und beängstigend, da noch so viel zu tun ist
+
+
 ## Woche 15 (Update zum 15. Juni)
 ### An diesen Milestones arbeiten wir gerade
  2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
