@@ -10,7 +10,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
 
 ### Das haben wir letzte Woche gemacht
- * Die größte Aufräumaktion die unser Code bisher gesehen hat. Es lässt sich nicht klar von den neuen Features trennen, aber allein `dystonse-gtfs-data` hatte in dieser Woche `22 files changed, 1705 insertions(+), 2078 deletions(-)`.
+ * Die größte Aufräumaktion, die unser Code bisher gesehen hat. Es lässt sich nicht klar von den neuen Features trennen, aber allein `dystonse-gtfs-data` hatte in dieser Woche `22 files changed, 1705 insertions(+), 2078 deletions(-)`.
  * Unterteilung der Daten und Analysen nach Wochentag und Uhrzeit in [11 disjunkte `TimeSlots`](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/types/time_slots.rs) die dem [Wikipedia-Beipsiel der Verkehrszeiten in Bottrop](https://de.wikipedia.org/wiki/Verkehrszeiten#Beispiele) nachempfunden sind.
  * [Allgemeinere Statistiken über Verspätungen](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/analyser/default_curves.rs), gruppiert u.a. nach Verkehrsmittel-Typ, damit wir auch für die vielen Linien Prognosen erstellen können, für die wir gar keine Echtzeitdaten haben. Dabei betrachten wir Anfang, Mitte und Ende jeder Linie gesondert, nachdem [David Kriesel in seinem Vortrag zum 'BahnMining'](http://www.dkriesel.com/blog/2019/1229_video_und_folien_meines_36c3-vortrags_bahnmining) heraus gestellt hat, wie verschieden sich Verspätungen da auswirken
  * Die Analyse der Verspätungen und das Erzeugen der Grafiken sind nun sauber getrennt. Dabei funktioniert die Analyse immer noch, die Grafikerzeugung ist momentan nicht ganz einsatzbereit.
