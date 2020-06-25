@@ -2,7 +2,27 @@
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
 
+## Woche 17 (Update zum 29. Juni) (ENTWURF)
+### An diesen Milestones arbeiten wir gerade
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
 
+### Das haben wir letzte Woche gemacht
+ * Die Prognoseberechnung (eigentlich keine Berechnung sondern eher ein gezieltes "Rausfischen" der passenden Wahrscheinlichkeitskurve aus der gesamten Menge, die im Voraus berechnet und gespeichert wurde) so weit fertig gestellt, dass man über die Kommandozeile eine einzelne Prognose pro Ausführung abfragen kann.
+ * Einen Befehl für unser Analyse-Modul, der alle Kurven (sowohl für spezifische Linien und Haltestellen(paare), als auch die allgemeinen Kurven (nach Verkehrsmittel, Zeitraum und Streckenabschnitt)) berechnet und in einer Datei speichert, die dann vom Prognose-Modul gelesen werden kann. Das soll im laufenden Betrieb wahrscheinlich 1x täglich automatisch durchgeführt werden und dauert aktuell ca. 15 Minuten für alle Daten aus dem VBN.
+ * Kommunikation mit anderen OpenSource-Entwicklern aus dem Mobilitäts-OpenData-Bereich.
+
+### Das machen wir diese Woche
+ * Einen Modus für das Prognose-Modul implementieren, in dem es dauerhaft läuft und jederzeit Anfragen über eine Schnittstelle beantworten kann.
+ * Vorher erst noch die Schnittstelle für diese Prognose-Anfragen genauer planen und definieren.
+
+### Das bremst uns gerade
+ * Die Hitze im (Dachgeschoss-)Arbeitszimmer
+ * Ablenkung durch private Aufgaben und andere Jobs
+
+### Das motiviert uns gerade
+ * ?
+ 
 
 ## Woche 16 (Update zum 22. Juni)
 ### An diesen Milestones arbeiten wir gerade
@@ -11,7 +31,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 ### Das haben wir letzte Woche gemacht
  * Die größte Aufräumaktion, die unser Code bisher gesehen hat. Es lässt sich nicht klar von den neuen Features trennen, aber allein `dystonse-gtfs-data` hatte in dieser Woche `22 files changed, 1705 insertions(+), 2078 deletions(-)`.
- * Unterteilung der Daten und Analysen nach Wochentag und Uhrzeit in [11 disjunkte `TimeSlots`](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/types/time_slots.rs) die dem [Wikipedia-Beipsiel der Verkehrszeiten in Bottrop](https://de.wikipedia.org/wiki/Verkehrszeiten#Beispiele) nachempfunden sind.
+ * Unterteilung der Daten und Analysen nach Wochentag und Uhrzeit in [11 disjunkte `TimeSlots`](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/types/time_slots.rs) die dem [Wikipedia-Beispiel der Verkehrszeiten in Bottrop](https://de.wikipedia.org/wiki/Verkehrszeiten#Beispiele) nachempfunden sind.
  * [Allgemeinere Statistiken über Verspätungen](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/analyser/default_curves.rs), gruppiert u.a. nach Verkehrsmittel-Typ, damit wir auch für die vielen Linien Prognosen erstellen können, für die wir gar keine Echtzeitdaten haben. Dabei betrachten wir Anfang, Mitte und Ende jeder Linie gesondert, nachdem [David Kriesel in seinem Vortrag zum 'BahnMining'](http://www.dkriesel.com/blog/2019/1229_video_und_folien_meines_36c3-vortrags_bahnmining) heraus gestellt hat, wie verschieden sich Verspätungen da auswirken
  * Die Analyse der Verspätungen und das Erzeugen der Grafiken sind nun sauber getrennt. Dabei funktioniert die Analyse immer noch, die Grafikerzeugung ist momentan nicht ganz einsatzbereit.
  * Die Analysen können jetzt in eine große maschinenlesbare Datei (MessagePack) oder Ordnerstrukturen mit sehr vielen (!) Dateien (MessagePack oder JSON) geschrieben werden. Dabei sind diverse Zwischenstufen konfigurierbar.
