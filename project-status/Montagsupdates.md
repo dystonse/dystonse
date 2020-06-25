@@ -8,8 +8,9 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
 
 ### Das haben wir letzte Woche gemacht
- * Die Prognoseberechnung (eigentlich keine Berechnung sondern eher ein gezieltes "Rausfischen" der passenden Wahrscheinlichkeitskurve aus der gesamten Menge, die im Voraus berechnet und gespeichert wurde) so weit fertig gestellt, dass man über die Kommandozeile eine einzelne Prognose pro Ausführung abfragen kann.
- * Einen Befehl für unser Analyse-Modul, der alle Kurven (sowohl für spezifische Linien und Haltestellen(paare), als auch die allgemeinen Kurven (nach Verkehrsmittel, Zeitraum und Streckenabschnitt)) berechnet und in einer Datei speichert, die dann vom Prognose-Modul gelesen werden kann. Das soll im laufenden Betrieb wahrscheinlich 1x täglich automatisch durchgeführt werden und dauert aktuell ca. 15 Minuten für alle Daten aus dem VBN.
+ * Die [Prognoseberechnung](https://github.com/dystonse/dystonse-gtfs-data/tree/master/src/predictor) (eigentlich keine Berechnung sondern eher ein gezieltes "Rausfischen" der passenden Wahrscheinlichkeitskurve aus der gesamten Menge, die im Voraus berechnet und gespeichert wurde) so weit fertig gestellt, dass man über die Kommandozeile eine einzelne Prognose pro Ausführung abfragen kann.
+ * Einen neuen [Befehl für unser Analyse-Modul](https://github.com/dystonse/dystonse-gtfs-data/blob/master/src/analyser/curves.rs), der alle Kurven (sowohl für spezifische Linien und Haltestellen(paare), als auch die allgemeinen Kurven (nach Verkehrsmittel, Zeitraum und Streckenabschnitt)) berechnet und in einer Datei speichert, die dann vom Prognose-Modul gelesen werden kann. Das soll im laufenden Betrieb wahrscheinlich 1x täglich automatisch durchgeführt werden und dauert aktuell ca. 15 Minuten für alle Daten aus dem VBN.
+ * Die [Dokumentation](https://github.com/dystonse/dystonse-gtfs-data/blob/master/README.md) mit Angaben zu den neuen Analyse- und Prognose-Befehlen erweitert.
  * Kommunikation mit anderen OpenSource-Entwicklern aus dem Mobilitäts-OpenData-Bereich.
  * Viel Arbeit am (De-)Serialisieren unserer Daten in Json, MessagePack und Ordnerstrukturen. Leider noch nicht ganz fertig, aber immerhin benutzbar.
 
@@ -22,7 +23,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Ablenkung durch private Aufgaben und andere Jobs
 
 ### Das motiviert uns gerade
- * ?
+ * Bald sind wir so weit, dass wir mit der Umsetzung der eigentlichen Routensuche anfangen können.
  
 
 ## Woche 16 (Update zum 22. Juni)
