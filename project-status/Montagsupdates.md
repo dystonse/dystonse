@@ -2,7 +2,7 @@
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
 
-## Woche 17 (Update zum 29. Juni) (ENTWURF)
+## Woche 17 (Update zum 29. Juni)
 ### An diesen Milestones arbeiten wir gerade
  2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
@@ -19,7 +19,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Vorher erst noch die Schnittstelle für diese Prognose-Anfragen genauer planen und definieren.
 
 ### Das bremst uns gerade
- * Die Hitze im (Dachgeschoss-)Arbeitszimmer
+ * Die Hitze im (Dachgeschoss-)Arbeitszimmer (inzwischen geht's erstmal wieder)
  * Ablenkung durch private Aufgaben und andere Jobs
 
 ### Das motiviert uns gerade
