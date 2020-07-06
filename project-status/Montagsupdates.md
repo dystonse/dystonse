@@ -1,6 +1,30 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 18 (Update zum 6. Juli)
+### An diesen Milestones arbeiten wir gerade
+ 2. [Statistische Analyse der gesammelten Echtzeit-Verspätungs-Daten](https://github.com/dystonse/dystonse/milestone/2)
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 
+### Das haben wir letzte Woche gemacht
+ * Viel Refactoring und Erweiterungen des Import-Moduls, so dass damit auch Prognosen basierend auf aktuell eintreffenden Echtzeitdaten angefragt und in die Datenbank gespeichert werden können. Das ist noch nicht fertig.
+ * Planung für eine neue Struktur der Datenbank, um aktuelle Prognosen in separaten Tabellen zu speichern.
+ * Teilweise diese Planung schon in einer lokalen Testinstanz der Datenbank umgesetzt.
+ * Recherche zu möglichen Erweiterungen des GTFS-Realtime-Formats, die wir verwenden oder selbst definieren könnten.
+
+### Das machen wir diese Woche
+ * Die angefangenen Erweiterungen der Datenbank und des Importer-Moduls fertig stellen.
+ * Fallback-Lösungen für Prognosen definieren, für die wir keine ausreichend große Datenmenge als Grundlage haben.
+ * Die automatische Erstellung von Analysen (Kurven) in unser Docker-Setup integrieren.
+ * Kommunikation mit anderen OpenSource-Entwicklern aus dem Mobilitäts-OpenData-Bereich.
+
+### Das bremst uns gerade
+ * Ablenkung durch private Aufgaben und andere Jobs
+ * Compilen innerhalb von Docker ist langsam, das nervt.
+
+### Das motiviert uns gerade
+ * Bald sind wir so weit, dass wir mit der Umsetzung der eigentlichen Routensuche anfangen können.
+
 
 ## Woche 17 (Update zum 29. Juni)
 ### An diesen Milestones arbeiten wir gerade
