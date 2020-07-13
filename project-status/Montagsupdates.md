@@ -7,17 +7,21 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  4. [Routensuche neu implementieren](https://github.com/dystonse/dystonse/milestone/4)
  
 ### Das haben wir letzte Woche gemacht
- * [Erweiterung des Import-Moduls](https://github.com/dystonse/dystonse-gtfs-data/commit/34c047745c208bb556784893a48930b62328e9e1#diff-2fd0d7be9788d256c26422411c7da3ac), so dass es Prognosen in die Datenbank speichert für alle Fahrten, von denen wir aktuelle Echtzeitdaten haben. Das ist noch etwas langsam, aber funktioniert.
+ * [Erweiterung des Import-Moduls](https://github.com/dystonse/dystonse-gtfs-data/commit/34c047745c208bb556784893a48930b62328e9e1#diff-2fd0d7be9788d256c26422411c7da3ac), so dass es Prognosen in die Datenbank speichert für alle Fahrten, von denen wir aktuelle Echtzeitdaten haben. Das Speichern ist noch etwas langsam, vor allem im Vergleich dazu wie schnell die eigentliche Berechnung passiert, aber funktioniert.
  * [Fallbacks für die Default-Prognosen](https://github.com/dystonse/dystonse-gtfs-data/commit/add94bf782c3cd64872c5ba08b4afbf112993c05#diff-333360f8a6ba23e9547ec998bca28eb5) implementiert, so dass die Abfrage auf jeden Fall immer eine Kurve zurückgeben kann - ggf. nur nach Verkehrsmittel und Ankunft/Abfahrt gruppiert, wenn für die jeweiligen Zeit- und Streckenabschnitte zu wenig Daten da sind. Und für den Fall, dass wir dann immer noch zu wenig Daten hätten, ist die [nächste Fallback-Lösung](https://github.com/dystonse/dystonse-gtfs-data/commit/becd7f5b9c91d3cce397614476e9e21fa63de5e6#diff-333360f8a6ba23e9547ec998bca28eb5) jetzt der Durchschnitt aus allen Kurven, die wir haben.
  * Das [Docker-Setup](https://github.com/dystonse/dystonse-docker/tree/with-analyser) aktualisiert, so dass einmal am Tag automatisch die Kurven (sowohl default als auch linienspezifische) neu berechnet und exportiert werden.
- * [Caching der zuletzt geladenen Fahrplan- und Analysen-Dateien](https://github.com/dystonse/dystonse-gtfs-data/commit/f144625b3ea666623e96b46378315053d96e6d0e) in unserem Importer/Analyser/Predictor, so dass die Dateien nur noch dann neu eingelesen werden, wenn sie sich geändert haben
+ * Damit sind wir nun auch sehr nah am Ziel, dass Interessierte Menschen oder Unternehmen einfach [dystonse-docker](https://github.com/dystonse/dystonse-docker/) clonen und starten können, und innerhalb von Minuten einen kompletten lauffähigen Stack erhalten. Bisher war da noch viel manuelles Tweaking nötig sowie wochenlange Datensammlung, bevor eine Datenbasis für Prognosen bestand.
+ * [Caching der zuletzt geladenen Fahrplan- und Analysen-Dateien](https://github.com/dystonse/dystonse-gtfs-data/commit/f144625b3ea666623e96b46378315053d96e6d0e) in unserem Importer/Analyser/Predictor, so dass die Dateien nur noch dann neu eingelesen werden, wenn sie sich geändert haben. Das spart zwar "nur" 10 bis 20 Sekunden Rechenzeit, aber bei einem Prozess, der sich alle zwei Minuten wiederholt, kommt da schon einiges zusammen.
  * [Abhängigkeiten von `dystonse-gtfs-data`](https://github.com/dystonse/dystonse-gtfs-data/blob/master/Cargo.toml) etwas ausgemistet, d.h. einige Pakete durch leichtgewichtigere Versionen ersetzt oder in optionale Features ausgelagert, um die compile-Zeiten wieder kürzer zu machen.
+ * Ein längeres Gespräch mit anderen Open-Source-Entwicklern geführt, die auch an ÖPNV-Prognosen arbeiten möchten. Vielleicht wird daraus mal eine Kooperation.
  
 ### Das machen wir diese Woche
- * Prognosen für alle Fahrten (nicht nur die, wo wir Echtzeitupdates bekommen) automatisch generieren und in eine Datenbank speichern (wir testen noch, ob das mit MySQL schnell genug machbar ist, oder wir dafür z.b. auf redis umsteigen).
+ * Prognosen für alle Fahrten (nicht nur die, von denen wir Echtzeitupdates bekommen) automatisch generieren und in eine Datenbank speichern (wir testen noch, ob das mit MySQL schnell genug machbar ist, oder wir dafür z.b. auf redis umsteigen).
+ * Die (vorerst) letzten Schritte, um den Einsatz unsere Docker-Stacks zu vereinfachen: Default-Analyse-Ergebnisse beilegen und Dokumentation aufräumen.
  * Die eigentliche Routensuche anfangen zu implementieren (oder zumindest planen, wie sie strukturiert sein soll).
  * Genauer planen, wie die Schnittstelle zwischen Routensuche und Analyse/Prognose aussehen soll.
  * Zweites Zwischengespräch mit der Prototypefund-Orga.
+ * Gedanken dazu machen, was wir in den nächsten 7 Wochen noch erreichen können/wollen/werden, und wie es danach weiter geht.
  
 ### Das bremst uns gerade
  * Ablenkung durch private Aufgaben und andere Jobs
