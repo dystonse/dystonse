@@ -1,7 +1,7 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
-## Woche 19 (Update zum 13. Juli) -ENTWURF-
+## Woche 19 (Update zum 13. Juli)
 ### An diesen Milestones arbeiten wir gerade
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
  4. [Routensuche neu implementieren](https://github.com/dystonse/dystonse/milestone/4)
