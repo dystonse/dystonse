@@ -1,6 +1,25 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 20 (Update zum 20. Juli) -ENTWURF-
+### An diesen Milestones arbeiten wir gerade
+ 3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
+ 4. [Routensuche neu implementieren](https://github.com/dystonse/dystonse/milestone/4)
+ 
+### Das haben wir letzte Woche gemacht
+ * Unserem kleinen Server auf dem Homeoffice-Schreibtisch ein Hardware-Upgrade verpasst (SSD statt Festplatte) und das System neu installiert. Jetzt läuft darauf der aktuellste Stand unseres Docker-Compose-Stacks und sammelt Fahrplan- und Echtzeitdaten, importiert Echtzeitupdates in die Datenbank, und erstellt Prognosen für aktuelle Fahrten, basierend auf den Echtzeitupdates.
+ * (WIP) Automatische Generierung von Prognosen für zukünftige Fahrten auf Basis des Fahrplans.
+ * Community-Building und Austausch mit anderen OpenSource-Entwickler\*innen und Verkehrsunternehmen.
+
+### Das machen wir diese Woche
+ * Routensuche
+
+### Das bremst uns gerade
+ * Ablenkung durch private Aufgaben und andere Jobs
+ 
+### Das motiviert uns gerade
+ * Endspurt!
+
 ## Woche 19 (Update zum 13. Juli)
 ### An diesen Milestones arbeiten wir gerade
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3)
