@@ -1,7 +1,7 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
-## Woche 20 (Update zum 20. Juli) -ENTWURF-
+## Woche 20 (Update zum 20. Juli)
 ### An diesen Milestones arbeiten wir gerade
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3) (Die ist jetzt im Wesentlichen fertig!)
  4. [Routensuche neu implementieren](https://github.com/dystonse/dystonse/milestone/4)
@@ -13,14 +13,15 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * [Große Refactorings in dystonse-gtfs-data](https://github.com/dystonse/dystonse-gtfs-data/commit/a1ca4c59e794194bf4c8bf657385a21ecde6f8e3), vor allem neue Datenstrukturen, um Informationen über die Qualität der Prognosen besser speichern zu können.
 
 ### Das machen wir diese Woche
- * Routensuche
+ * Neuimplementierung der Routensuche anfangen
+ * Planungen für Frontend (eigenes Frontend anpassen und/oder Integration in fremde Anwendungen)
 
 ### Das bremst uns gerade
  * Ablenkung durch private Aufgaben und andere Jobs.
  * Die Anforderung für unsere zweite Fördergeld-Auszahlung ist immer noch nicht angekommen.
  
 ### Das motiviert uns gerade
- * Endspurt!
+ * Endspurt :)
 
 ## Woche 19 (Update zum 13. Juli)
 ### An diesen Milestones arbeiten wir gerade
