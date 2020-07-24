@@ -1,6 +1,29 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 21 (Update zum 27. Juli) -ENTWURF-
+### An diesen Milestones arbeiten wir gerade
+ 4. ~~[Routensuche neu implementieren]~~(https://github.com/dystonse/dystonse/milestone/4) (eher nachrangig, da die Demo-Anwendung vorher fertig werden soll)
+ 5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
+ 
+ 
+### Das haben wir letzte Woche gemacht
+ * Unser erstes Coaching mit Eileen von SimplySecure. Dabei haben wir ein Konzept ausgearbeitet, wie wir in den wenigen Wochen, die bis zur Abgabefrist für die Demo Week noch bleiben, eine Demo-Anwendung implementieren können, die möglichst gut alle Funktionen unserer bisher entwickelten Software sichtbar macht. 
+ * Das Ergebnis dieser Überlegungen ist eine Web-Anwendung, in der zunächst die Abfahrten an einer von den Nutzer\*innen ausgewählten Haltestelle angezeigt werden, und dabei die Wahrscheinlichkeitsverteilung der Abfahrtszeit für jedes abfahrende Fahzeug visualisiert wird. Dann kann eine Fahrt ausgewählt werden, und im zweiten Schritt wird die Wahrscheinlichkeitsverteilung für die Ankunft an allen folgenden Haltestellen angezeigt. Wenn eine dieser Haltestellen zum Umstieg ausgewählt wurde, werden wiederum die Abfahrten an dieser Haltestelle angezeigt wie im ersten Schritt, und zusätzlich wird die Wahrscheinlichkeit berechnet, mit der man diesen Anschluss bekommt. So kann sich di\*er Nutzer\*in mit Hilfe der visualisierten Wahrscheinlichkeiten selbst eine Reisekette zusammenstellen. Dieser Plan ermöglicht uns, ein anschauliches Frontend für die Demo Week fertig zu stellen, und den Routensuch-Algorithmus unabhängig davon parallel/danach zu entwickeln, da das Frontend auch ohne einen fertigen Suchalgorithmus schon funktioniert. So können wir die knappe Zeit besser ausnutzen, und rechtzeitig zur Deadline vor der Demo Week unsere Demo-Webapp fertig stellen, ohne die restliche Förderzeit danach ungenutzt zu lassen.
+ * Rust-Pakete für Webserver-Anwendungen recherchiert und eine Hello-World-Anwendung mit [hyper](https://docs.rs/crate/hyper/) gebaut.
+ * Ein [neues Modul in `dystonse-gtfs-data`](https://github.com/dystonse/dystonse-gtfs-data/tree/master/src/monitor) angefangen, das eine Website mit Abfahrts-Monitor wie oben beschrieben generiert. Eventuell wird dieses Modul später in ein eigenes Paket ausgelagert, aber während der Entwicklung bleibt es vorerst ein Teil in unserem Universal-Tool.
+
+### Das machen wir diese Woche
+ * Hauptsächlich: Urlaub :D
+ * Vorher/zwischendurch noch etwas weiter Programmieren/Recherche/Vernetzung mit der OpenData-Community.
+
+### Das bremst uns gerade
+ * Dadurch, dass wir mit der Demo-App für die Demo Week viel früher fertig sein müssen, als zuerst angenommen, mussten wir unseren Plan für die nächsten Wochen nochmal umwerfen und können noch nicht mit dem eigentlich als Kernfeature geplanten Suchalgorithmus anfangen. Das fühlt sich ein Bisschen nach Scheitern an, obwohl wir produktiv sind und mit der Webapp gut vorankommen.
+ 
+### Das motiviert uns gerade
+ * Die Webapp zeigt im lokalen Testbetrieb schon richtige Infos an :)
+ * Vorfreude auf den Urlaub
+
 ## Woche 20 (Update zum 20. Juli)
 ### An diesen Milestones arbeiten wir gerade
  3. [Prognose-Berechnung entwickeln](https://github.com/dystonse/dystonse/milestone/3) (Die ist jetzt im Wesentlichen fertig!)
