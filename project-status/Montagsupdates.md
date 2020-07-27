@@ -1,7 +1,7 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
-## Woche 21 (Update zum 27. Juli) -ENTWURF-
+## Woche 21 (Update zum 27. Juli)
 ### An diesen Milestones arbeiten wir gerade
  4. [~~Routensuche neu implementieren~~](https://github.com/dystonse/dystonse/milestone/4) (eher nachrangig, da die Demo-Anwendung vorher fertig werden soll)
  5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
@@ -19,6 +19,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 ### Das bremst uns gerade
  * Dadurch, dass wir mit der Demo-App für die Demo Week viel früher fertig sein müssen, als zuerst angenommen, mussten wir unseren Plan für die nächsten Wochen nochmal umwerfen und können noch nicht mit dem eigentlich als Kernfeature geplanten Suchalgorithmus anfangen. Das fühlt sich ein Bisschen nach Scheitern an, obwohl wir produktiv sind und mit der Webapp gut vorankommen.
+ * Jetzt machen wir erstmal Urlaub - das ist zwar gut als Erholung, aber macht, dass wir diese Woche nicht viel arbeiten werden.
  
 ### Das motiviert uns gerade
  * Die Webapp zeigt im lokalen Testbetrieb schon richtige Infos an :)
