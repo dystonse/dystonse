@@ -2,7 +2,7 @@
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
 
-## Woche 22 (Update zum X. 3. August) -- ENTWURF
+## Woche 22 (Update zum 3. August)
 ### An diesen Milestones arbeiten wir gerade
  4. [~~Routensuche neu implementieren~~](https://github.com/dystonse/dystonse/milestone/4) (eher nachrangig, da die Demo-Anwendung vorher fertig werden soll)
  5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
