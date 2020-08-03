@@ -1,6 +1,29 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+
+## Woche 22 (Update zum X. 3. August) -- ENTWURF
+### An diesen Milestones arbeiten wir gerade
+ 4. [~~Routensuche neu implementieren~~](https://github.com/dystonse/dystonse/milestone/4) (eher nachrangig, da die Demo-Anwendung vorher fertig werden soll)
+ 5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
+ 
+### Das haben wir letzte Woche gemacht
+ * Urlaub. Ja, eigentlich nur Urlaub.
+
+### Das machen wir diese Woche
+ * Wieder in den Arbeits-Modus kommen
+ * Weiter an unserer neuen Demo-Anwendung (erweiterter Abfahrtsmonitor) arbeiten
+ * Texte für die Demo-Week schreiben
+ * Weitere Vernetzung mit Entwicklern für künftige Kooperationen
+ 
+### Das bremst uns gerade
+ * Post-Urlaubs-Erschöpfung
+ * Die nächsten Tage steigen die Außen-Temperaturen in Braunschweig bis auf 32°C, so dass unser Home Office im Dachgeschoss vielleicht unbenutzbar wird und wir an einen anderen Ort ausweichen müssen.
+
+### Das motiviert uns gerade
+ * Heute ist endlich (!) die nächste Auszahlung bei uns angekommen.
+ * Es fühlt sich schon ein bisschen nach Endspurt an!
+
 ## Woche 21 (Update zum 27. Juli)
 ### An diesen Milestones arbeiten wir gerade
  4. [~~Routensuche neu implementieren~~](https://github.com/dystonse/dystonse/milestone/4) (eher nachrangig, da die Demo-Anwendung vorher fertig werden soll)
