@@ -1,6 +1,26 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+## Woche 23 (Update zum 10.August) ENTWURF
+### An diesen Milestones arbeiten wir gerade
+ 5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
+
+### Das haben wir letzte Woche gemacht
+ * Den erweiterten Abfahrtsmonitor weiter implementiert
+ * Einen Text-Entwurf für die Demo Week geschrieben
+ * Den Webserver, auf dem unser alter Prototyp liegt, so konfiguriert, dass er auch als Proxy für das neue Frontend funktioniert, was zusammen mit der Datenbank etc. vom MacMini auf unserem Schreibtisch generiert wird
+ * Eine embed-Version der Abfahrtsmonitor-Startseite erstellt, die als iframe direkt im Demo Week-Text eingebunden werden kann.
+
+### Das machen wir diese Woche
+ * Etwas Feinschliff am Demo Week-Text
+ * Den erweiterten Abfahrtsmonitor fertig stellen: Kurven-Visualisierung, Wahrscheinlichkeitswerte berechnen und anzeigen, Navigation noch etwas erweitern und sprachlicher Feinschliff
+ 
+### Das bremst uns gerade
+ * Sommerhitze im Dachgeschoss-HomeOffice
+
+### Das motiviert uns gerade
+ * Wir haben jetzt einiges über Webserver-Konfiguration gelernt
+ * Unsere Monitor-Seite sieht jetzt schon ganz hübsch aus
 
 ## Woche 22 (Update zum 3. August)
 ### An diesen Milestones arbeiten wir gerade
