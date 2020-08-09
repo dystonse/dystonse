@@ -6,6 +6,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
 
 ### Das haben wir letzte Woche gemacht
+ * Ein paar Verbesserungen und Fehlerbehebung an der Prognose-Generierung
  * Den erweiterten Abfahrtsmonitor weiter implementiert
  * Einen Text-Entwurf für die Demo Week geschrieben
  * Den Webserver, auf dem unser alter Prototyp liegt, so konfiguriert, dass er auch als Proxy für das neue Frontend funktioniert, was zusammen mit der Datenbank etc. vom MacMini auf unserem Schreibtisch generiert wird
