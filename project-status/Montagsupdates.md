@@ -1,7 +1,7 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
-## Woche 23 (Update zum 10.August) ENTWURF
+## Woche 23 (Update zum 10.August)
 ### An diesen Milestones arbeiten wir gerade
  5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
 
@@ -9,12 +9,13 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
  * Ein paar Verbesserungen und Fehlerbehebung an der Prognose-Generierung
  * Den erweiterten Abfahrtsmonitor weiter implementiert
  * Einen Text-Entwurf für die Demo Week geschrieben
- * Den Webserver, auf dem unser alter Prototyp liegt, so konfiguriert, dass er auch als Proxy für das neue Frontend funktioniert, was zusammen mit der Datenbank etc. vom MacMini auf unserem Schreibtisch generiert wird
+ * Den Webserver, auf dem unser alter Prototyp liegt, so konfiguriert, dass er auch als Proxy für das neue Frontend funktioniert, was zusammen mit der Datenbank etc. vom MacMini auf unserem Schreibtisch generiert wird, so dass [der Monitor](https://monitor.dystonse.org/) jetzt auch aus dem Internet erreichbar ist.
  * Eine embed-Version der Abfahrtsmonitor-Startseite erstellt, die als iframe direkt im Demo Week-Text eingebunden werden kann.
 
 ### Das machen wir diese Woche
- * Etwas Feinschliff am Demo Week-Text
- * Den erweiterten Abfahrtsmonitor fertig stellen: Kurven-Visualisierung, Wahrscheinlichkeitswerte berechnen und anzeigen, Navigation noch etwas erweitern und sprachlicher Feinschliff
+ * Etwas Feinschliff am Demo Week-Text.
+ * Uns im [OpenTransport Meetup](https://hackmd.okfn.de/opentransportmeetup#) über Echtzeitdaten unterhalten und evtl. unser Projekt mit einem kurzen online-Vortrag präsentieren.
+ * Den erweiterten Abfahrtsmonitor fertig stellen: Kurven-Visualisierung, Wahrscheinlichkeitswerte berechnen und anzeigen, Navigation noch etwas erweitern und sprachlicher Feinschliff.
  
 ### Das bremst uns gerade
  * Sommerhitze im Dachgeschoss-HomeOffice
