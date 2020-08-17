@@ -1,6 +1,43 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
+
+## Woche 24 (Update zum 17. August)
+### An diesen Milestones arbeiten wir gerade
+ 5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
+
+### Das haben wir letzte Woche gemacht
+ * Eine neue [Landing-Page](https://dystonse.org) gebaut, die den Einstieg in unsere verschiedenen Webauftritte vereinfacht
+ * Viele Verbesserungen am [Abfahrts-Monitor](https://monitor.dystonse.org):
+   * Design und Typographie
+   * Versteckte Ausgabe von Statistiken über unseren Datenbestand (die hätten wir schon vor Monaten brauchen können!)
+   * Haltestellen im Umkreis von 400m intern zusammenfassen
+   * Grafische Visualisierung von Zeit-Wahrscheinlichkeits-Verteilungen als eindimensionaler Farbbalken
+   * Berechnung und Anzeige von Umstiegswahrscheinlichkeiten in Prozent
+   * Nutzung der korrekten Zeitzone im Monitor
+   * Breadcrumb-Navigation für Reiseketten
+   * Heuristik für die Dauer von Fußwegen
+   * Fußwege als explizite Abschnitte einer Reisekette
+   * Großes Refactoring
+ * Mehrfaches Umziehen unseres Reverse Proxy, der Anfragen von https://monitor.dystonse.org auf unseren MacMini zuhause umleitet. Leider umsonst, da eingehende Verbindungen bei unserem Internet zuhause unzuverlässig sind.
+ * Vortrag im Open Transport Meetup gehalten. Wir haben eine Aufzeichnung davon, die bald veröffentlicht werden soll.
+ * Uns für eine Anschlussförderung bei [DB StartupXpress](https://dbmindbox.com/de/dbstartupxpress/batches/regional-traffic-2020/) beworben
+
+### Das machen wir diese Woche
+ * Letzte Nachbesserungen am Text für die Demo Week
+ * Neuen Server mieten und Betrieb dahin umziehen
+ * Ein bisschen Erklärung / Anleitung für den Monitor schreiben
+ * Bugs im Monitor fixen
+ * Dokumentation verbessern
+ * Zeitzone im Backend richtig verwenden
+ * Mit unseren neuen Datenstatisken haben wir ein paar Probleme in unserer Datensammlung gefunden und durch Input aus dem Open Transport Meetup Lösungsansätze gefunden. Damit werden wir unsere Prognose-Genauigkeit noch deutlich verbessern.
+ 
+### Das bremst uns gerade
+ * Die letzte Woche war super (arbeits-)intensiv, wir müssen diese Woche einen Gang runter schalten
+
+### Das motiviert uns gerade
+ * Waaaaaaaaaaahhh! Finale!
+
 ## Woche 23 (Update zum 10.August)
 ### An diesen Milestones arbeiten wir gerade
  5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
