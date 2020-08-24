@@ -2,6 +2,40 @@
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
 
 
+## Woche 25 (Update zum 24. August)
+### An diesen Milestones arbeiten wir gerade
+ 5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
+
+### Das haben wir letzte Woche gemacht
+ * Diverse Bugs behoben, dabei auch ein paar neue erschaffen, und die meisten davon auch wieder behoben
+   * Viele davon sind nur dank der Braunschweiger Ringbusse aufgefallen, die vom Hauptbahnhof zum Hauptbahnhof fahren, und anschaulich zeigen, dass eine `stop_id` weniger eindeutig als eine `stop_sequence` ist.
+   * Wir hatten z.B. beim Import historischer Echtzeitdaten seit einigen Wochen recht große Anteile verworfen, und uns schon gewundert, warum die Verkehrsbetriebe so lückenhaft liefern. Tun sie nicht! 
+ * Hinweise aus dem Open-Transport-Meetup bzg. Fortschreibung von Echtzeitdaten in unserer Analyse umgesetzt und damit die Verfügbarkeit spezifischer Prognosen verbessert
+ * Zeitformate umgestellt. Bisher hatten wir fast überall `NaiveTime` verwendet, also Angaben ohne Zeitzonen, so dass zwischen UTC und lokaler Zeit Umrechnungsfehler passieren können, die nicht vom Compiler bemerkt werden (Letzte Woche hatten wir das für den Monitor geändert, nun für alles andere). Die Umstellung auf `DateTime<Local>` war schwieriger als erwartet, da GTFS eine [ganz besondere Zeitrechnung](https://developers.google.com/transit/gtfs/reference#field_types) erfordert (in Sekunden seit 12 Stunden vor Mittags an einem Tag, der auch mal mehr als 24 Stunden vor der Zeit liegen kann, die eigentlich kodiert wird).
+ * Einen neuen, recht leistungsfähigen Server gemietet und unsere Dienste dort erprobt und nach und nach umgezogen. Bei der Gelegenheit haben wir auch Docker-Container für einen nginx-Reverse-Proxy und für Letsencrypt hinzugefügt.
+ * Optimierung unseres `analyse`-Moduls. Etwa die Hälfte der Rechenzeit wurde darauf verwendet, Zeitformate umzurechnen. Ohne [flamegraph](https://github.com/flamegraph-rs/flamegraph)-Profiling hätten wir nie gemerkt, dass da der (einzige) Bottleneck ist. Nun dauern unsere Analysen "nur noch" 2 statt 4 Stunden auf dem großen Server.
+ * Design:
+   * Anpassungen an unseren Texten und der Einbettungs-Version der Monitor-Startseite, damit sie besser zum Pink-Blau-Design des Prototype Fund passen.
+   * Unser eigenes Design und die Logos und Favicons von Bunt / Rot-Grün auf Blau-Grün-Gelb umgestellt.
+ * Eine umfangreiche [Hilfe-Seite für den Monitor](https://monitor.dystonse.org/help/) geschrieben
+ * Dokumentation von [dystonse-gtfs-data](https://github.com/dystonse/dystonse-gtfs-data) und [dystonse-docker](https://github.com/dystonse/dystonse-docker) aktualisiert.
+
+
+### Das machen wir diese Woche
+ * Demo Week! Also die Präsentation unseres Projektes beim Prototype Fund für die interessierte Öffentlichkeit.
+ * Vielleicht noch ein paar Bugs fixen - wenn wir Fixes finden, die kein großes Risiko haben, dabei etwas anderes kaputt zu machen.
+ * Blogpost(s) schreiben
+ * Issues für all unsere Todos eröffnen, die bisher nur in Lokalen Textdateien, auf unserem Kühlschrank oder in unseren Köpfen vermerkt sind
+ * Das (Beinahe-)Ende dieser intensiven 6 Monate feiern 🎉
+ 
+### Das bremst uns gerade
+ * Die letzten Wochen waren ganz schön anstrengend, und der Vorsatz, letzte Woche einen Gang runter zu schalten, hat nicht funktioniert.
+
+### Das motiviert uns gerade
+ * Dass heute und morgen eine größere Menge Menschen auf unser Projekt aufmerksam wird.
+ * Dass wir in den letzten 4 Wochen richtig viel geschafft haben und die Früchte unserer Arbeit genießen können.
+
+
 ## Woche 24 (Update zum 17. August)
 ### An diesen Milestones arbeiten wir gerade
  5. [Web-Frontend anpassen](https://github.com/dystonse/dystonse/milestone/5) (bzw. neues Frontend für die Demo-Anwendung entwickeln)
