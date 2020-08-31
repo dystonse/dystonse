@@ -1,5 +1,31 @@
 # Montagsupdates
-_Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) berichten wir wöchentlich über unseren Fortschritt, neueste Updates zuerst._
+_Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) haben wir von März bis August 2020 wöchentlich über unseren Fortschritt berichtet. (Neueste Updates zuerst.)_
+
+## Woche 26 (Update zum 31.August)
+Das letzte offizielle Montagsupdate in der Förderrunde 7!
+
+### An diesen Milestones arbeiten wir gerade
+ * (Keine bestimmten Milestones mehr, stattdessen Fehlerbehebung und organisatorische Aufgaben.)
+
+### Das haben wir letzte Woche gemacht
+ * [Demo Week](https://demoweek.prototypefund.de/) - mit Livestreams, Tweets, Blogposts...
+ * Viele ToDos und Ideen, die wir nur als lokale Notizen rumliegen hatten, und Fehler, die uns noch aufgefallen sind, als [Issues](https://github.com/dystonse/dystonse-gtfs-data/issues) angelegt.
+ * Einige kleinere Fehler im Monitor behoben und das Layout etwas schöner gestaltet.
+ * [Disclaimer zur Datenqualität](https://monitor.dystonse.org/help/#disclaimer) im Monitor hinzugefügt.
+ * Tägliches Neu-/Überschreiben der fahrplanbasierten Prognosen in der Datenbank implementiert. So bekommt der Monitor alle Fahrplanänderungen schneller mit (nicht erst eine Woche später).
+ 
+### Das machen wir diese Woche
+ * Weitere Bugs suchen und hoffentlich reparieren (oder als Issues dokumentieren).
+ * Veraltete Prognosen für Fahrten, die im aktuellen Fahrplan nicht mehr vorkommen, automatisch löschen.
+ * Mehr Erholung, Freizeit, und private ToDos – weniger an Dystonse arbeiten.
+ 
+### Das bremst uns gerade
+ * Die Förderzeit ist zu Ende, d.h. für unsere Arbeitszeit bekommen wir erstmal nicht mehr direkt Geld.
+ * Viele andere Aufgaben, die während der Förderzeit oft etwas zu kurz kamen, wollen jetzt auch wieder mehr Aufmerksamkeit.
+
+### Das motiviert uns gerade
+ * Im Großen und Ganzen läuft unser Monitor schon seit mindestens einer Woche ganz gut, wir arbeiten eigentlich nur noch an Detailverbesserungen, Dokumentation und mehr Übersichtlichkeit (für uns selbst).
+ * Durch die Issues können ab jetzt ganz im Sinne von Open Source auch andere Menschen zu unserer Software beitragen.
 
 
 ## Woche 25 (Update zum 24. August)
