@@ -1,5 +1,7 @@
 # Montagsupdates
-_Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) haben wir von März bis August 2020 wöchentlich über unseren Fortschritt berichtet. (Neueste Updates zuerst.)_
+_Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) haben wir von März bis August 2020 wöchentlich über unseren Fortschritt berichtet._
+
+_Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
 
 ## Woche 26 (Update zum 31.August)
 Das letzte offizielle Montagsupdate in der Förderrunde 7!
