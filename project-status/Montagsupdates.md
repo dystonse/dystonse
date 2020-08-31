@@ -8,7 +8,7 @@ Das letzte offizielle Montagsupdate in der Förderrunde 7!
  * (Keine bestimmten Milestones mehr, stattdessen Fehlerbehebung und organisatorische Aufgaben.)
 
 ### Das haben wir letzte Woche gemacht
- * [Demo Week](https://demoweek.prototypefund.de/) - mit Livestreams, Tweets, Blogposts...
+ * [Demo Week](https://demoweek.prototypefund.de/) - mit Livestreams, [Tweets](https://twitter.com/dystonse/status/1298210902790078464), Blogposts...
  * Viele ToDos und Ideen, die wir nur als lokale Notizen rumliegen hatten, und Fehler, die uns noch aufgefallen sind, als [Issues](https://github.com/dystonse/dystonse-gtfs-data/issues) angelegt.
  * Einige kleinere Fehler im Monitor behoben und das Layout etwas schöner gestaltet.
  * [Disclaimer zur Datenqualität](https://monitor.dystonse.org/help/#disclaimer) im Monitor hinzugefügt.
