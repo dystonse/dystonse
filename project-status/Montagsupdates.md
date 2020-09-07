@@ -3,6 +3,32 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 _Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
 
+
+## Woche 27 (Update zum 7. September)
+Das erste Montagsupdate nach der Förderrunde!
+
+### An diesen Milestones arbeiten wir gerade
+ * (Keine bestimmten Milestones mehr, stattdessen Fehlerbehebung und organisatorische Aufgaben.)
+ 
+### Das haben wir letzte Woche gemacht
+ * Für jede prediction wird nun gespeichert, auf welcher Fahrplanversion sie basiert.
+ * Predcitions werden nun überschrieben, wenn ein neuerer Fahrplan vorhanden ist. Damit wird jede Fahrt weiterhin 8 Tage im Vorraus prognostiziert, aber anschließend etwa einmal täglich mit dem aktuellsten Fahrplan neu generiert und ggf. ab Fahrtbeginn nochmals mittels Echtzeitdaten.
+ * Das behebt Issue [#10](https://github.com/dystonse/dystonse-gtfs-data/issues/10), aber leider nicht [#6](https://github.com/dystonse/dystonse-gtfs-data/issues/6#issuecomment-685156717).
+ * Um unser [generelles Problem mit Stationsnamen und -ids](https://github.com/dystonse/dystonse-gtfs-data/issues/22) zu lösen, haben wir [einen Fork vom statsimi](https://github.com/dystonse/statsimi) gemacht und dort grundlegende Docker-Integration hinzugefügt. Das funktioniert, d.h. wir können erfolgreich per `http` anfragen, ob zwei Tupel aus Stationsname und -koordinate wohl zusammen gehören. Es ist aber noch nicht in `dystonse-docker` integriert, und wird auch sonst noch an keiner Stelle von `dystonse-gtfs-data` verwendet.
+ * Wir hatten uns vor einigen Wochen für eine Anschlussförderung durch die [DB mindbox](https://dbmindbox.com/de/dbstartupxpress/batches/regional-traffic-2020/) beworben und haben uns nun weitere Gedanken dazu gemacht, wie es damit weiter gehen könnte, wenn wir angeommen werden sollten.
+
+### Das machen wir diese Woche
+ * Die `statsimi`-Integration weiter voran treiben.
+ * Generell überdenken, wie wir mit zusammenhängenden Stationen umgehen wollen. Das Thema wird uns so schnell nicht loslassen.
+ * Bugs fixen.
+ 
+### Das bremst uns gerade
+ * Immer noch etwas erschöpft vom Endspurt der Förderung.
+
+### Das motiviert uns gerade
+ * Wir merken hier und da, dass unser Projekt gut ankommt und Menschen begeistert :)
+ * Dass mit `git-learning-game` nun auch ein Projekt aus der nächsten Förderrunde [öffentliche Montagsupdates](https://github.com/git-learning-game/documents/blob/main/monday-updates.md) schreibt
+
 ## Woche 26 (Update zum 31.August)
 Das letzte offizielle Montagsupdate in der Förderrunde 7!
 
