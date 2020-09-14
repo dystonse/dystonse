@@ -4,6 +4,27 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 _Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
 
 
+## Woche 28 (Update zum 14. September)
+
+### An diesen Milestones arbeiten wir gerade
+ * (Keine bestimmten Milestones mehr, stattdessen Fehlerbehebung und organisatorische Aufgaben.)
+ 
+### Das haben wir letzte Woche gemacht
+ * Mal wieder am Open Transport Meetup teilgenommen
+ * Kurz mit einem fachkundigen Freund über Effizienzsteigerungen bei Statsimi gesprochen
+
+### Das machen wir diese Woche
+ * Pitch bei der DB mindbox vorbereiten
+ * Zwei Coachings
+ * Mit den Abschluss-Formalitäten des Prototype Funds beginnen
+ 
+### Das bremst uns gerade
+ * Lena war ein paar Tage krank
+
+### Das motiviert uns gerade
+ * Der bevorstehende Pitch
+
+
 ## Woche 27 (Update zum 7. September)
 Das erste Montagsupdate nach der Förderrunde!
 
