@@ -3,6 +3,29 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 _Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
 
+## Woche 29 (Update zum 21. September)
+_In dieser Woche haben wir den Montag verpasst und tragen das Update nun nach, als hätten wir es am Montag geschrieben._
+
+### An diesen Milestones arbeiten wir gerade
+Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
+
+### Das haben wir letzte Woche gemacht
+ * Wir haben Präsentations-Folien für den DB mindbox Pitch gebaut
+ * In den beiden Coachings haben wir soviel wertvolles Feedback erhalten, dass…
+ * …wir die Präsentations-Folien praktisch nochmal komplett neu gebaut haben
+
+### Das machen wir diese Woche
+ * Hoffentlich noch ein paar Bugs fixen, die kürzlich im Monitor aufgetreten sind, durch die in manchen Städten wenige oder gar keine Abfahrten mehr angezeigt werden.
+ * Nach Geisenheim bei FFM fahren und den Pitch abliefern! (Lena fährt allein)
+ * Weitere Formalien zum Abschluss unserer Prototype-Fund-Förderung
+ * Absprachen für ein Image-Video und eine Art Konferenzteilnahme im Oktober (Infos folgen später)
+ 
+### Das bremst uns gerade
+ * Nichts konkretes
+
+### Das motiviert uns gerade
+ * Die Aussicht auf eine Kooperation mit der Bahn!
+
 
 ## Woche 28 (Update zum 14. September)
 
