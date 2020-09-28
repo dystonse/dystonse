@@ -3,6 +3,28 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 _Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
 
+## Woche 30 (Update zum 28. September)
+### An diesen Milestones arbeiten wir gerade
+Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
+
+### Das haben wir letzte Woche gemacht
+ * Einen Fehler im Monitor gefunden (der Fahrplan wird nicht automatisch neu geladen, wenn ein neuer Fahrplan verfügbar ist), der nicht auffallen konnte, so lange wir fast täglich daran gearbeitet haben (da bei jedem Neustart der aktuellste Fahrplan geladen wird) - auf die Schnelle ließ sich der Fehler durch einen Neustart beheben und wir haben ein Issue dazu angelegt, aber noch nichts am Code geändert.
+ * Pitch (Kurzvortrag und Fragen beantworten) beim Selection Day für die DB Mindbox-Förderung (leider wurden wir diesmal nicht für die Förderung ausgewählt).
+ * Bei der Gelegenheit einige neue Kontakte geknüpft für mögliche Kooperationen.
+ * Entwurf für den Abschlussbericht unserer Prototype-Fund-Förderung.
+ 
+### Das machen wir diese Woche
+ * Hoffentlich das automatische Neu Laden des Fahrplans im Monitor implementieren.
+ * Formalien zum Abschluss unserer Prototype-Fund-Förderung fertig stellen.
+ * Weitere Absprachen für ein Image-Video und eine Art Konferenzteilnahme im Oktober (Infos folgen später)
+ 
+### Das bremst uns gerade
+ * Überlegungen dazu, ob wir uns mit einem anderen Projekt nochmal beim Prototype Fund bewerben wollen, verbrauchen gerade viel Energie.
+
+### Das motiviert uns gerade
+ * Zwei Bahnfahrten in der letzten Woche, bei denen einiges nicht nach Plan lief, haben uns bestätigt, dass es immer noch einen Bedarf an gut aufbereiteter Information über Umstiegsmöglichkeiten gibt.
+
+
 ## Woche 29 (Update zum 21. September)
 _In dieser Woche haben wir den Montag verpasst und tragen das Update nun nach, als hätten wir es am Montag geschrieben._
 
