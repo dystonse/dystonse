@@ -3,6 +3,42 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 _Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
 
+## Woche 32 (Update zum 12. Oktober)
+### An diesen Milestones arbeiten wir gerade
+Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
+
+### Das haben wir letzte Woche gemacht
+ * Absprachen für ein Werbevideo im Rahmen unserer Förderung
+ * Den Abfahrtsmonitor so umgebaut, dass er sich bei jedem Aufruf der Website den aktuellen Fahrplan aus einem Cache holt, so dass immer der neuste Fahrplan verwendet wird.
+ 
+### Das machen wir diese Woche
+ * Planung für das Video, was vermutlich nächste Woche gedreht wird
+ * evtl. Kontakt mit einem möglichen Kooperationspartner aus dem Bereich der Deutschen Bahn aufnehmen, der bei der Pitch-Veranstaltung am 23.9. Interesse bekundet hatte
+ 
+### Das bremst uns gerade
+ * allgemein etwas bedrückte Stimmung durch das düstere Herbstwetter und die aktuelle Lage der Welt
+
+### Das motiviert uns gerade
+ * der kommende Videodreh, in dem wir unser Projekt nochmal präsentieren werden
+
+
+## Woche 31 (Update zum 5. Oktober)
+### An diesen Milestones arbeiten wir gerade
+Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
+
+### Das haben wir letzte Woche gemacht
+ * Abschlussbericht und Verwendungsnachweis fertiggestellt und abgeschickt (Formalitäten im Rahmen unserer Förderung durch den Prototype Fund)
+ 
+### Das machen wir diese Woche
+ * Hoffentlich das automatische Neu-laden des Fahrplans im Monitor
+ 
+### Das bremst uns gerade
+ * Wir sind gerade mit der Teilnahme an einem [Game Jam](https://ldjam.com) beschäftigt, was unsere Zeit voll ausfüllt.
+
+### Das motiviert uns gerade
+ * (nichts bestimmtes)
+
+
 ## Woche 30 (Update zum 28. September)
 ### An diesen Milestones arbeiten wir gerade
 Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
