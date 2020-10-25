@@ -3,6 +3,43 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 _Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
 
+## Woche 34 (Update zum 26. Oktober) -ENTWURF-
+### An diesen Milestones arbeiten wir gerade
+Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
+
+### Das haben wir letzte Woche gemacht
+ * Letzte Vorbereitungen für den Videodreh
+ * am Open Transport Meetup und an einem Austauschseminar zu Digitalisierung und Mobilität teilgenommen.
+ * Videodreh (am heutigen Montag)
+ 
+### Das machen wir diese Woche
+ * ?
+ 
+### Das bremst uns gerade
+ * ?
+
+### Das motiviert uns gerade
+ * ?
+
+## Woche 33 (Update zum 19. Oktober)
+### An diesen Milestones arbeiten wir gerade
+Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
+
+### Das haben wir letzte Woche gemacht
+ * Brainstorming/Konzept und Absprachen für ein Werbevideo im Rahmen unserer Förderung
+ 
+### Das machen wir diese Woche
+ * weitere Vorbereitungen für das Video, was nächste Woche gedreht wird
+ * am Open Transport Meetup und an einem Austauschseminar zu Digitalisierung und Mobilität teilnehmen.
+ 
+### Das bremst uns gerade
+ * private ToDos, Job und Studium
+ * die schlechten Nachrichten zu Corona-Pandemie und Weltpolitik häufen sich immer noch
+
+### Das motiviert uns gerade
+ * Die motivierte Open Data-Bubble, zu der wir unseren Beitrag leisten können
+ 
+
 ## Woche 32 (Update zum 12. Oktober)
 ### An diesen Milestones arbeiten wir gerade
 Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
