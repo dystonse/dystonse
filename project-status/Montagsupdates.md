@@ -1,9 +1,9 @@
 # Montagsupdates
 _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefund.de) haben wir von März bis August 2020 wöchentlich über unseren Fortschritt berichtet._
 
-_Auch wenn diese Zeit nun vorbei ist, werden wir diese Tradition bis auf weiteres fortsetzen._
+_Auch nach der Förderzeit haben wir diese Tradition noch eine Weile fortgesetzt. Da wir mittlerweile aber (ohne die Förderung) nicht mehr so viel Zeit in dieses Projekt stecken können, passiert in den meisten Wochen nichts spannendes. Und wir wollen euch weder jede Woche mit "wir haben nichts gemacht" langweilen, noch unser Privatleben hier ausbreiten. Daher gibt es ab jetzt nur noch sporadische Updates, wenn mal wieder etwas wirklich wichtiges/interessantes passiert ist._
 
-## Woche 34 (Update zum 26. Oktober) -ENTWURF-
+## Woche 34 (Update zum 26. Oktober)
 ### An diesen Milestones arbeiten wir gerade
 Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Milestone-Planung
 
@@ -11,15 +11,6 @@ Wir befinden uns gerade "zwischen den Projekten" und somit außerhalb einer Mile
  * Letzte Vorbereitungen für den Videodreh
  * am Open Transport Meetup und an einem Austauschseminar zu Digitalisierung und Mobilität teilgenommen.
  * Videodreh (am heutigen Montag)
- 
-### Das machen wir diese Woche
- * ?
- 
-### Das bremst uns gerade
- * ?
-
-### Das motiviert uns gerade
- * ?
 
 ## Woche 33 (Update zum 19. Oktober)
 ### An diesen Milestones arbeiten wir gerade
