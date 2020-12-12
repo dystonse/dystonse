@@ -116,7 +116,7 @@
                 {
                     "format": "gtfs",
                     "license": "cc-by-4.0",
-                    "url": "https://www.vrn.de/mam/service/downloads/vrn_gtfs.zip"
+                    "comment": "Static data is now behind a log in"
                 }
             ],
             "dynamic-data": [
