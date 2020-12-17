@@ -3,10 +3,7 @@ _Im Rahmen der Projektförderung durch den [Prototype Fund](https://prototypefun
 
 _Auch nach der Förderzeit haben wir diese Tradition noch eine Weile fortgesetzt. Da wir mittlerweile aber (ohne die Förderung) nicht mehr so viel Zeit in dieses Projekt stecken können, passiert in den meisten Wochen nichts spannendes. Und wir wollen euch weder jede Woche mit "wir haben nichts gemacht" langweilen, noch unser Privatleben hier ausbreiten. Daher gibt es ab jetzt nur noch sporadische Updates, wenn mal wieder etwas wirklich wichtiges/interessantes passiert ist._
 
-
-## Woche wir zählen nicht mehr (Update zum 14. Dezember)
-
-### Woche ab dem 14.12.
+## Woche ab dem 14.12.
 Die vielen neuen Instanzen vom Wochenende haben einiges durcheinander geworfen, so dass wir in dieser Woche noch etwas nachbessern mussten:
  * Die zusätzliche Last hat einige Stabilitätsprobleme bereitet. Da alle auf die selbe Datenbank zugreifen, hat diese jetzt eine Menge mehr zu tun - 500.000 Anfragen pro Minute sind da keine Seltenheit, und ab und zu haben sich Transaktions-Locks gegenseitig ausgebremst. Ein paar kleine Mikro-Optimierungen an den Timeouts haben hier schon geholfen, aber mittelfristig muss hier noch optimiert werden.
  * Zwei unserer neuen Datenquellen enthalten nun auch Standseilbahnen. Für die hatten wir bisher weder Statistiken erstellt, noch hatten wir ein Symbol für die Anzeige im Monitor.
@@ -18,7 +15,7 @@ Die vielen neuen Instanzen vom Wochenende haben einiges durcheinander geworfen, 
    * Mit dem VBN und den HVV haben wir nun erstmals zwei Instanzen im Betrieb, deren Gebiet sich berührt bzw. überschneidet. Da brauchen wir bald eine Strategie, um durchgängige Auskünfte, etc. anzubieren, wozu wir die Datenquellen irgendwie vereinigen müssen.
    * Erschreckend viele unserer GTFS-Downloads kommen von URLs, die wir manuell anpassen müssen, da die Verkehrsbetriebe nicht der allgemeinen Empfehlung folgen, Updates unter der immer gleichen URL bereit zu stellen. Da müssen wir entweder besserer Workarounds finden, oder die Anbieter überzeugen, es besser zu machen.
 
-### #xomdcrm20 (11. und 12.12.2020)
+## #xomdcrm20 (11. und 12.12.2020)
 Am Freitag und Samstag fand das [XMAS Open Mobility Data Community Remote Meetup](https://gobeta.de/veranstaltungen/xmas-open-mobility-data-community-remote-meetup-2020-xomdcrm20/) der Deutschen Bahn statt. In den Stunden davor, währenddessen und kurt danach hatten wir nochmal einen Motivationsschub und neuen Input:
 
  * Bisher musste eine neue Dystonse-Instanz einige Tage oder Wochen laufen, bis genug Echtzeitdaten gesammelt sind, um daraus nützliche Prognosen abzuleiten. Um diese Hürde etwas abzumildern, haben wir einen kleinen Workaround geschaffen:
@@ -28,7 +25,7 @@ Am Freitag und Samstag fand das [XMAS Open Mobility Data Community Remote Meetup
  * Wir haben neue Datenquellen erhalten! Und damit konnten wir mit wenig Aufwand weitere Instanzen von Dystonse in Betrieb nehmen:
    * __Berlin: https://monitor-vbb.dystonse.org/__ - [hier](https://v0.berlin-gtfs-rt.transport.rest/) betreibt Jannis einen [Koverter von Hafas nach GTFS-RT](https://github.com/derhuerst/berlin-gtfs-rt-server)
    * __Hamburg: https://monitor-hvv.dystonse.org/__ - und auch [hier](https://v0.hamburg-gtfs-rt.transport.rest/) betreibt Jannis einen [Koverter von Hafas nach GTFS-RT](https://github.com/derhuerst/hamburg-gtfs-rt-server)
-   * __Rhein-Neckar: https://monitor-vrn.dystonse.org/__ - der VRN bietet schon lange Echtzeitdaten an, die wir auch schon seit dem Frühjahr 2020 sammeln. Nun haben wir endlich auch ein Monitor-Frondend dafür aktiviert. Dabei war uns nicht aufgefallen, dass diese leider vor einiger Zeit den Zugang zu den offenen Daten beschränkt hat. Nun ist eine Anmeldung und manuelle Freischaltung nötig (die wir inzwischen auch haben), aber die Downloads sind nun nicht mehr automatisierbar und schlagen fehl. Daher ist die Instanz noch leer.
+   * __Rhein-Neckar: https://monitor-vrn.dystonse.org/__ - der VRN bietet schon lange Echtzeitdaten an, die wir auch schon seit dem Frühjahr 2020 sammeln. Nun haben wir endlich auch ein Monitor-Frondend dafür aktiviert. Dabei war uns nicht aufgefallen, dass diese leider vor einiger Zeit den Zugang zu den offenen Daten beschränkt hat. Nun ist eine [Anmeldung](https://www.vrn.de/opendata/) und manuelle Freischaltung nötig (die wir inzwischen auch haben), aber die Downloads sind nun nicht mehr automatisierbar und schlagen fehl. Daher ist die Instanz noch leer.
    * __"Geheime" Instanz__ - Außerdem haben wir einen Vorab-Zugang zu Daten bekommen, die in naher Zukunft offen werden sollen. Hier ging die Einrichtung recht problemlos, wir mussten nur noch zwei kleine Bugs in unserem Code beheben, die durch diese neue Datenquelle aufgefallen sind. Inzwischen läuft auch diese stabil, so dass wir sie bald veröffentlichen werden.
  * Dass wir nun mehrere Instanzen betreiben, macht ein paar Anpassungen nötig. Als erstes haben wir nun [ermöglicht](https://github.com/dystonse/dystonse-gtfs-data/commit/eedd465041cb8c26459cbb84d716219868379fa4), dass der Name des Verkehrsverbundes konfiguriert werden kann.
 
